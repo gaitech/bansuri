@@ -9668,7 +9668,12 @@ header .header-audio-video .views-field-field-mp3 {
   position: absolute;
   top: 100px;
 }
-/* line 65, ../sass/custom/_header.scss */
+/* line 66, ../sass/custom/_header.scss */
+header .header-audio-video .views-field-field-banner-image img {
+  width: 100% !important;
+  height: 215px !important;
+}
+/* line 71, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-title {
   color: #fff;
   left: 16px;
@@ -9676,7 +9681,7 @@ header .header-audio-video .views-field-title {
   top: 132px;
   text-transform: capitalize;
 }
-/* line 74, ../sass/custom/_header.scss */
+/* line 80, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul {
   background-color: #af2900;
   display: block;
@@ -9687,14 +9692,14 @@ header #block-bansuri-main-menu ul {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 83, ../sass/custom/_header.scss */
+/* line 89, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li {
   border-right: 1px solid #ff6f43;
   line-height: 25px;
   text-align: center;
   white-space: nowrap;
 }
-/* line 88, ../sass/custom/_header.scss */
+/* line 94, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li a {
   color: wheat;
   opacity: 0.99;
@@ -9704,12 +9709,63 @@ header #block-bansuri-main-menu ul li a {
   padding-right: 6px;
 }
 
-/* line 101, ../sass/custom/_header.scss */
+/* line 107, ../sass/custom/_header.scss */
 .path-frontpage .page-header {
   display: none;
 }
 
-/* line 106, ../sass/custom/_header.scss */
+/* line 2, ../sass/custom/_page.scss */
+.region-content .views-field-title {
+  color: #af2900;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  opacity: 0.99;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  line-height: 1.3em;
+  margin-bottom: 0.667em;
+  margin-top: 0.667em;
+}
+/* line 13, ../sass/custom/_page.scss */
+.region-content .views-field-title a {
+  color: #c24e37;
+  text-decoration: none;
+}
+/* line 16, ../sass/custom/_page.scss */
+.region-content .views-field-title a:hover {
+  color: #f10000;
+}
+
+/*Homepage main slider block*/
+/* line 25, ../sass/custom/_page.scss */
+.home-main-slider .attachment-before .view-content {
+  width: 100%;
+  float: initial;
+}
+/* line 30, ../sass/custom/_page.scss */
+.home-main-slider .view-content {
+  width: 35%;
+  float: left;
+}
+/* line 33, ../sass/custom/_page.scss */
+.home-main-slider .view-content img {
+  background: #e2e4e4;
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+}
+/* line 40, ../sass/custom/_page.scss */
+.home-main-slider .attachment-after {
+  width: 65%;
+  float: left;
+}
+/* line 43, ../sass/custom/_page.scss */
+.home-main-slider .attachment-after .view-content {
+  width: 100%;
+  border: none;
+}
+
+/* line 2, ../sass/custom/_footer.scss */
 .footer {
   max-width: 960px;
   width: 100%;
@@ -9717,13 +9773,13 @@ header #block-bansuri-main-menu ul li a {
   padding: 0;
   border: none !important;
 }
-/* line 112, ../sass/custom/_header.scss */
+/* line 8, ../sass/custom/_footer.scss */
 .footer .social-links {
   background-color: #af2900;
   height: 25px;
   text-align: center;
 }
-/* line 116, ../sass/custom/_header.scss */
+/* line 12, ../sass/custom/_footer.scss */
 .footer .social-links li {
   list-style-type: none;
   line-height: 20px;
@@ -9738,31 +9794,31 @@ header #block-bansuri-main-menu ul li a {
   display: inline;
   background-color: #af2900;
 }
-/* line 129, ../sass/custom/_header.scss */
+/* line 25, ../sass/custom/_footer.scss */
 .footer .social-links li:nth-last-child(1) {
   border: none;
 }
-/* line 132, ../sass/custom/_header.scss */
+/* line 28, ../sass/custom/_footer.scss */
 .footer .social-links li:nth-of-type(1) {
   border: none;
 }
-/* line 135, ../sass/custom/_header.scss */
+/* line 31, ../sass/custom/_footer.scss */
 .footer .social-links li:nth-of-type(2) {
   background: url("../images/facebook.png") no-repeat;
 }
-/* line 138, ../sass/custom/_header.scss */
+/* line 34, ../sass/custom/_footer.scss */
 .footer .social-links li:nth-of-type(3) {
   background: url("../images/youtube.png") no-repeat;
   margin-left: 10px;
 }
-/* line 143, ../sass/custom/_header.scss */
+/* line 39, ../sass/custom/_footer.scss */
 .footer .social-links li a {
   color: #fff;
   opacity: 0.99;
   padding: 0;
   text-shadow: 1px 1px 0 #000000;
 }
-/* line 151, ../sass/custom/_header.scss */
+/* line 47, ../sass/custom/_footer.scss */
 .footer .footer-message {
   color: #af2900;
   font-size: 0.8em;
