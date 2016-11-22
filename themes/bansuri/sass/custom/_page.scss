@@ -21,6 +21,8 @@
 }
 /*Homepage main slider block*/
 .home-main-slider {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
 	.attachment-before {
 		.view-content{
 			width: 100%;
@@ -45,5 +47,24 @@
 	    }
     }
 }
+/*homepage second block*/
+.shankar-col-1 {
+	float: left;
+	width: 50%;
+	height:400px;
+	border-bottom: 1px solid #ccc;
+	.views-field-field-image {
+		img {
+			height: auto;
+			width: 150px
+		}
+	}
+	.views-field-body {
+		float: left;
+		margin-right: 10px;
+		width: 60%;
+	}
+}
+
 
 

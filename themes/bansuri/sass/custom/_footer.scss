@@ -1,0 +1,54 @@
+
+.footer {
+	max-width: 960px;
+	width: 100%;
+    margin: 0 auto;
+	padding: 0;
+	border: none !important;
+	.social-links {
+	    background-color: #af2900;
+	    height: 25px;
+	    text-align: center;
+		li {
+			list-style-type: none;
+			line-height: 20px;
+			border-right: 1px solid #ff6f43;
+			white-space: nowrap;
+			padding-left: 20px;
+			padding-right: 15px;
+			font: 10px Georgia,"Times New Roman",Times,serif;
+			letter-spacing: 2px;
+			text-align: center;
+			text-transform: uppercase;
+            display: inline;
+            background-color: #af2900;
+            &:nth-last-child(1) {
+  				border: none;
+			}
+			&:nth-of-type(1) {
+				border:none;
+			}
+			&:nth-of-type(2) {
+				background:  url("../images/facebook.png") no-repeat;
+			}	
+			&:nth-of-type(3) {
+				background:  url("../images/youtube.png") no-repeat;
+				margin-left: 10px;
+			}		
+
+			a {
+				color: #fff;
+				opacity: 0.99;
+				padding: 0;
+				text-shadow: 1px 1px 0 #000000;
+			}
+		}
+	}
+	.footer-message {
+	    color: #af2900;
+	    font-size: 0.8em;
+	    padding: 1em 0;
+	    text-align: center;
+	}
+
+}
