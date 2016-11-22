@@ -1,16 +1,33 @@
 body {
 	background: #070d14 url("../images/background.png") repeat scroll 104px 514px;
 	font-size: 13px;
+
 }
-a{
+
+a {
+	font-family: Georgia,"Times New Roman",Times,serif;
 	&:hover {
 		text-decoration:none !important;
 	}
+}
+
+.page-header {
+	color: #af2900;
+	font-size: 1.4em;
+	font-weight: normal;
+	letter-spacing: 2px;
+	line-height: 1.3em;
+	margin-bottom: 0.667em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	border:none;
+	font-family: Georgia,"Times New Roman",Times,serif;
 }
 .main-container {
     background: #fff none repeat scroll 0 0;
     max-width: 960px;
     width: 100%;
+    padding:0 20px 20px;
     img {
 	    background-color: #e2e4e4;
 	    border: 1px solid #c8c8c8;
@@ -34,7 +51,7 @@ header {
 	    font-weight: normal;
 	    letter-spacing: 11px;
 	    text-decoration: none;
-		font: 2.5em/1.3em Georgia,"Times New Roman",Times,serif;
+		font: 2.5em/1.3em;
 		margin: 0;
 		opacity: 0.99;
 		text-transform: uppercase;
@@ -47,7 +64,7 @@ header {
 	}
 	.navbar-text {
 		color: #af2900 !important;
-		font: 14px Georgia,"Times New Roman",Times,serif;
+		font: 14px;
 		letter-spacing: 3px;
 		text-align: left;
 		margin: 0 0 20px;
@@ -87,7 +104,7 @@ header {
 		ul {
 			background-color: #af2900;
 			display: block;
-			font: 12px Georgia,"Times New Roman",Times,serif;
+			font: 12px;
 			height: 60px;
 			letter-spacing: 2px;
 			padding: 5px 20px;
@@ -110,9 +127,3 @@ header {
 		}
 	}
 }
-.path-frontpage{
-	.page-header {
-	  display: none;
-	}
-}
-

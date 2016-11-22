@@ -28,7 +28,7 @@
 }
 /*Homepage main slider block*/
 .home-main-slider {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	border-bottom: 1px solid #ccc;
 	.attachment-before {
 		.view-content{
@@ -51,6 +51,14 @@
 	    .view-content {
 			width: 100%;
 			border:none;
+			.views-field-field-other-description {
+			    margin-top: 10px;
+			}
+		    .custom-more-link {
+				float: right;
+				margin-top: 20px;
+				margin-right: 10px;
+			}
 	    }
     }
 }
@@ -69,7 +77,6 @@
 .shankar-col-1 {
 	float: left;
 	width: 50%;
-	height:400px;
 	.views-field-field-image {
 		img {
 			height: auto;
@@ -88,7 +95,8 @@
 }
 /*homepage products shop*/
 .homepage-cd-shop {
-	 .views-row {
+	clear:both;
+	.views-row {
 		float: left;
 		margin-right: 22px;
 		width: 150px;
@@ -98,9 +106,16 @@
 			height:150px;
 		}
 	}
+	.more-link {
+	    float: right;
+		margin-top: 5px;
+	}
 }
 
 .homepage-haldipur-message {
+	clear:both;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
     .views-row {
     	.views-field-body {
 			max-width: 470px;
@@ -119,7 +134,7 @@
 .homepage-raag {
 	.views-row {
     	.views-field-body {
-			max-width: 650px;
+			max-width: 640px;
 			width: 100%;
 			float: left;
 			margin-right: 20px;
@@ -131,8 +146,29 @@
 				background: none;
 			}
 		}
+		.views-field-path {
+			float: right;
+			margin-bottom: 10px;
+		}
 	}
 }
 
+/*homepage content type Theme */
+.bansuri-content-type {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	.flute-detail-image {
+		max-width: 250px;
+		width: 100%;
+		float: right;
+		margin-left: 10px;
+	}
+}
+.flute-detail-image-slideshow {
+	max-width: 450px;
+	width: 100%;
+	float: right;
+	margin-left: 10px;
+}
 
 

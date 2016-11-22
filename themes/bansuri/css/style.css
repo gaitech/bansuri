@@ -9600,18 +9600,37 @@ body {
   font-size: 13px;
 }
 
-/* line 6, ../sass/custom/_header.scss */
+/* line 7, ../sass/custom/_header.scss */
+a {
+  font-family: Georgia,"Times New Roman",Times,serif;
+}
+/* line 9, ../sass/custom/_header.scss */
 a:hover {
   text-decoration: none !important;
 }
 
-/* line 10, ../sass/custom/_header.scss */
+/* line 14, ../sass/custom/_header.scss */
+.page-header {
+  color: #af2900;
+  font-size: 1.4em;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 1.3em;
+  margin-bottom: 0.667em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  border: none;
+  font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+/* line 26, ../sass/custom/_header.scss */
 .main-container {
   background: #fff none repeat scroll 0 0;
   max-width: 960px;
   width: 100%;
+  padding: 0 20px 20px;
 }
-/* line 14, ../sass/custom/_header.scss */
+/* line 31, ../sass/custom/_header.scss */
 .main-container img {
   background-color: #e2e4e4;
   border: 1px solid #c8c8c8;
@@ -9619,7 +9638,7 @@ a:hover {
   padding: 10px;
 }
 
-/* line 21, ../sass/custom/_header.scss */
+/* line 38, ../sass/custom/_header.scss */
 .navbar.container {
   border: 0 none;
   border-radius: 0 !important;
@@ -9629,39 +9648,39 @@ a:hover {
   width: 100%;
 }
 
-/* line 29, ../sass/custom/_header.scss */
+/* line 46, ../sass/custom/_header.scss */
 header {
   background: transparent !important;
 }
-/* line 31, ../sass/custom/_header.scss */
+/* line 48, ../sass/custom/_header.scss */
 header .navbar-brand {
   color: #e7e8e3 !important;
   font-style: normal;
   font-weight: normal;
   letter-spacing: 11px;
   text-decoration: none;
-  font: 2.5em/1.3em Georgia,"Times New Roman",Times,serif;
+  font: 2.5em/1.3em;
   margin: 0;
   opacity: 0.99;
   text-transform: uppercase;
   padding: 5px 0 0;
   margin-right: 30px;
 }
-/* line 43, ../sass/custom/_header.scss */
+/* line 60, ../sass/custom/_header.scss */
 header .navbar-brand:hover {
   opacity: 1;
   color: #fff !important;
 }
-/* line 48, ../sass/custom/_header.scss */
+/* line 65, ../sass/custom/_header.scss */
 header .navbar-text {
   color: #af2900 !important;
-  font: 14px Georgia,"Times New Roman",Times,serif;
+  font: 14px;
   letter-spacing: 3px;
   text-align: left;
   margin: 0 0 20px;
   clear: both;
 }
-/* line 57, ../sass/custom/_header.scss */
+/* line 74, ../sass/custom/_header.scss */
 header .block-gtranslate select {
   background: #fff none repeat scroll 0 0;
   border: medium none;
@@ -9670,18 +9689,18 @@ header .block-gtranslate select {
   position: absolute;
   top: 16px;
 }
-/* line 67, ../sass/custom/_header.scss */
+/* line 84, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-field-mp3 {
   left: 15px;
   position: absolute;
   top: 100px;
 }
-/* line 73, ../sass/custom/_header.scss */
+/* line 90, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-field-banner-image img {
   width: 100% !important;
   height: 215px !important;
 }
-/* line 78, ../sass/custom/_header.scss */
+/* line 95, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-title {
   color: #fff;
   left: 16px;
@@ -9689,25 +9708,25 @@ header .header-audio-video .views-field-title {
   top: 132px;
   text-transform: capitalize;
 }
-/* line 87, ../sass/custom/_header.scss */
+/* line 104, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul {
   background-color: #af2900;
   display: block;
-  font: 12px Georgia,"Times New Roman",Times,serif;
+  font: 12px;
   height: 60px;
   letter-spacing: 2px;
   padding: 5px 20px;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 96, ../sass/custom/_header.scss */
+/* line 113, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li {
   border-right: 1px solid #ff6f43;
   line-height: 25px;
   text-align: center;
   white-space: nowrap;
 }
-/* line 101, ../sass/custom/_header.scss */
+/* line 118, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li a {
   color: wheat;
   opacity: 0.99;
@@ -9715,11 +9734,6 @@ header #block-bansuri-main-menu ul li a {
   text-shadow: 1px 1px 0 #000000;
   padding-left: 6px;
   padding-right: 6px;
-}
-
-/* line 114, ../sass/custom/_header.scss */
-.path-frontpage .page-header {
-  display: none;
 }
 
 /* line 2, ../sass/custom/_page.scss */
@@ -9757,7 +9771,7 @@ header #block-bansuri-main-menu ul li a {
 /*Homepage main slider block*/
 /* line 30, ../sass/custom/_page.scss */
 .home-main-slider {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
 /* line 34, ../sass/custom/_page.scss */
@@ -9786,8 +9800,18 @@ header #block-bansuri-main-menu ul li a {
   width: 100%;
   border: none;
 }
-
+/* line 54, ../sass/custom/_page.scss */
+.home-main-slider .attachment-after .view-content .views-field-field-other-description {
+  margin-top: 10px;
+}
 /* line 57, ../sass/custom/_page.scss */
+.home-main-slider .attachment-after .view-content .custom-more-link {
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+/* line 65, ../sass/custom/_page.scss */
 .custom-more-link {
   font-family: Georgia,"Times New Roman",Times,serif;
   font-style: italic;
@@ -9796,37 +9820,40 @@ header #block-bansuri-main-menu ul li a {
   color: #c24e37;
   text-decoration: none;
 }
-/* line 64, ../sass/custom/_page.scss */
+/* line 72, ../sass/custom/_page.scss */
 .custom-more-link:hover {
   color: #f10000;
 }
 
 /*homepage second block*/
-/* line 69, ../sass/custom/_page.scss */
+/* line 77, ../sass/custom/_page.scss */
 .shankar-col-1 {
   float: left;
   width: 50%;
-  height: 400px;
 }
-/* line 74, ../sass/custom/_page.scss */
+/* line 81, ../sass/custom/_page.scss */
 .shankar-col-1 .views-field-field-image img {
   height: auto;
   width: 150px;
 }
-/* line 79, ../sass/custom/_page.scss */
+/* line 86, ../sass/custom/_page.scss */
 .shankar-col-1 .views-field-body {
   float: left;
   margin-right: 10px;
   width: 60%;
 }
-/* line 84, ../sass/custom/_page.scss */
+/* line 91, ../sass/custom/_page.scss */
 .shankar-col-1 .views-field-path {
   float: right;
   margin-right: 25px;
 }
 
 /*homepage products shop*/
-/* line 91, ../sass/custom/_page.scss */
+/* line 97, ../sass/custom/_page.scss */
+.homepage-cd-shop {
+  clear: both;
+}
+/* line 99, ../sass/custom/_page.scss */
 .homepage-cd-shop .views-row {
   float: left;
   margin-right: 22px;
@@ -9834,36 +9861,74 @@ header #block-bansuri-main-menu ul li a {
   margin-left: 12px;
   margin-top: 20px;
 }
-/* line 97, ../sass/custom/_page.scss */
+/* line 105, ../sass/custom/_page.scss */
 .homepage-cd-shop .views-row img {
   height: 150px;
 }
+/* line 109, ../sass/custom/_page.scss */
+.homepage-cd-shop .more-link {
+  float: right;
+  margin-top: 5px;
+}
 
-/* line 105, ../sass/custom/_page.scss */
+/* line 115, ../sass/custom/_page.scss */
+.homepage-haldipur-message {
+  clear: both;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+/* line 120, ../sass/custom/_page.scss */
 .homepage-haldipur-message .views-row .views-field-body {
   max-width: 470px;
   width: 100%;
   float: left;
   margin-right: 20px;
 }
-/* line 112, ../sass/custom/_page.scss */
+/* line 127, ../sass/custom/_page.scss */
 .homepage-haldipur-message .views-row .views-field-field-image img {
   max-width: 420px;
   width: 100%;
 }
 
-/* line 121, ../sass/custom/_page.scss */
+/* line 136, ../sass/custom/_page.scss */
 .homepage-raag .views-row .views-field-body {
-  max-width: 650px;
+  max-width: 640px;
   width: 100%;
   float: left;
   margin-right: 20px;
 }
-/* line 128, ../sass/custom/_page.scss */
+/* line 143, ../sass/custom/_page.scss */
 .homepage-raag .views-row .views-field-field-image img {
   max-width: 260px;
   border: none;
   background: none;
+}
+/* line 149, ../sass/custom/_page.scss */
+.homepage-raag .views-row .views-field-path {
+  float: right;
+  margin-bottom: 10px;
+}
+
+/*homepage content type Theme */
+/* line 157, ../sass/custom/_page.scss */
+.bansuri-content-type {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+/* line 160, ../sass/custom/_page.scss */
+.bansuri-content-type .flute-detail-image {
+  max-width: 250px;
+  width: 100%;
+  float: right;
+  margin-left: 10px;
+}
+
+/* line 167, ../sass/custom/_page.scss */
+.flute-detail-image-slideshow {
+  max-width: 450px;
+  width: 100%;
+  float: right;
+  margin-left: 10px;
 }
 
 /* line 2, ../sass/custom/_footer.scss */
@@ -9888,7 +9953,7 @@ header #block-bansuri-main-menu ul li a {
   white-space: nowrap;
   padding-left: 20px;
   padding-right: 15px;
-  font: 10px Georgia,"Times New Roman",Times,serif;
+  font: 10px;
   letter-spacing: 2px;
   text-align: center;
   text-transform: uppercase;
@@ -9912,14 +9977,14 @@ header #block-bansuri-main-menu ul li a {
   background: url("../images/youtube.png") no-repeat;
   margin-left: 10px;
 }
-/* line 39, ../sass/custom/_footer.scss */
+/* line 38, ../sass/custom/_footer.scss */
 .footer .social-links li a {
   color: #fff;
   opacity: 0.99;
   padding: 0;
   text-shadow: 1px 1px 0 #000000;
 }
-/* line 47, ../sass/custom/_footer.scss */
+/* line 46, ../sass/custom/_footer.scss */
 .footer .footer-message {
   color: #af2900;
   font-size: 0.8em;
