@@ -9839,6 +9839,33 @@ header #block-bansuri-main-menu ul li a {
   height: 150px;
 }
 
+/* line 105, ../sass/custom/_page.scss */
+.homepage-haldipur-message .views-row .views-field-body {
+  max-width: 470px;
+  width: 100%;
+  float: left;
+  margin-right: 20px;
+}
+/* line 112, ../sass/custom/_page.scss */
+.homepage-haldipur-message .views-row .views-field-field-image img {
+  max-width: 420px;
+  width: 100%;
+}
+
+/* line 121, ../sass/custom/_page.scss */
+.homepage-raag .views-row .views-field-body {
+  max-width: 650px;
+  width: 100%;
+  float: left;
+  margin-right: 20px;
+}
+/* line 128, ../sass/custom/_page.scss */
+.homepage-raag .views-row .views-field-field-image img {
+  max-width: 260px;
+  border: none;
+  background: none;
+}
+
 /* line 2, ../sass/custom/_footer.scss */
 .footer {
   max-width: 960px;

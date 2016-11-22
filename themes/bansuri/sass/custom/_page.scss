@@ -100,4 +100,39 @@
 	}
 }
 
+.homepage-haldipur-message {
+    .views-row {
+    	.views-field-body {
+			max-width: 470px;
+			width: 100%;
+			float: left;
+			margin-right: 20px;
+    	}
+    	.views-field-field-image {
+	    	img {
+				max-width: 420px;
+				width: 100%;
+			}
+		}
+	}
+}
+.homepage-raag {
+	.views-row {
+    	.views-field-body {
+			max-width: 650px;
+			width: 100%;
+			float: left;
+			margin-right: 20px;
+    	}
+    	.views-field-field-image {
+	    	img {
+				max-width: 260px;
+				border: none;
+				background: none;
+			}
+		}
+	}
+}
+
+
 
