@@ -9744,58 +9744,99 @@ header #block-bansuri-main-menu ul li a {
 .region-content .views-field-title a:hover {
   color: #f10000;
 }
+/* line 21, ../sass/custom/_page.scss */
+.region-content a {
+  color: #c24e37;
+  text-decoration: none;
+}
+/* line 24, ../sass/custom/_page.scss */
+.region-content a:hover {
+  color: #f10000;
+}
 
 /*Homepage main slider block*/
-/* line 23, ../sass/custom/_page.scss */
+/* line 30, ../sass/custom/_page.scss */
 .home-main-slider {
   padding-bottom: 20px;
   border-bottom: 1px solid #ccc;
 }
-/* line 27, ../sass/custom/_page.scss */
+/* line 34, ../sass/custom/_page.scss */
 .home-main-slider .attachment-before .view-content {
   width: 100%;
   float: initial;
 }
-/* line 32, ../sass/custom/_page.scss */
+/* line 39, ../sass/custom/_page.scss */
 .home-main-slider .view-content {
   width: 35%;
   float: left;
 }
-/* line 35, ../sass/custom/_page.scss */
+/* line 42, ../sass/custom/_page.scss */
 .home-main-slider .view-content img {
   background: #e2e4e4;
   padding: 10px;
   border: 1px solid #c8c8c8;
 }
-/* line 41, ../sass/custom/_page.scss */
+/* line 48, ../sass/custom/_page.scss */
 .home-main-slider .attachment-after {
   width: 65%;
   float: left;
 }
-/* line 44, ../sass/custom/_page.scss */
+/* line 51, ../sass/custom/_page.scss */
 .home-main-slider .attachment-after .view-content {
   width: 100%;
   border: none;
 }
 
+/* line 57, ../sass/custom/_page.scss */
+.custom-more-link {
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-style: italic;
+  list-style-type: none;
+  text-transform: lowercase;
+  color: #c24e37;
+  text-decoration: none;
+}
+/* line 64, ../sass/custom/_page.scss */
+.custom-more-link:hover {
+  color: #f10000;
+}
+
 /*homepage second block*/
-/* line 51, ../sass/custom/_page.scss */
+/* line 69, ../sass/custom/_page.scss */
 .shankar-col-1 {
   float: left;
   width: 50%;
   height: 400px;
-  border-bottom: 1px solid #ccc;
 }
-/* line 57, ../sass/custom/_page.scss */
+/* line 74, ../sass/custom/_page.scss */
 .shankar-col-1 .views-field-field-image img {
   height: auto;
   width: 150px;
 }
-/* line 62, ../sass/custom/_page.scss */
+/* line 79, ../sass/custom/_page.scss */
 .shankar-col-1 .views-field-body {
   float: left;
   margin-right: 10px;
   width: 60%;
+}
+/* line 84, ../sass/custom/_page.scss */
+.shankar-col-1 .views-field-path {
+  float: right;
+  margin-right: 25px;
+}
+
+/*homepage products shop*/
+/* line 91, ../sass/custom/_page.scss */
+.homepage-cd-shop .views-row {
+  float: left;
+  margin-right: 22px;
+  width: 150px;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+/* line 97, ../sass/custom/_page.scss */
+.homepage-cd-shop .views-row img {
+  height: 150px;
 }
 
 /* line 2, ../sass/custom/_footer.scss */

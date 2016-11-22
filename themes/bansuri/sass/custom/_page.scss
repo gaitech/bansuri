@@ -18,6 +18,13 @@
 	        }
 	    }
 	}
+    a {
+		color: #c24e37;
+		text-decoration: none;
+        &:hover {
+    	    color:#f10000;
+        }
+    }
 }
 /*Homepage main slider block*/
 .home-main-slider {
@@ -47,12 +54,22 @@
 	    }
     }
 }
+.custom-more-link {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-style: italic;
+	list-style-type: none;
+	text-transform: lowercase;
+	color: #c24e37;
+	text-decoration: none;
+	&:hover {
+		color:#f10000;
+	}
+}
 /*homepage second block*/
 .shankar-col-1 {
 	float: left;
 	width: 50%;
 	height:400px;
-	border-bottom: 1px solid #ccc;
 	.views-field-field-image {
 		img {
 			height: auto;
@@ -64,7 +81,23 @@
 		margin-right: 10px;
 		width: 60%;
 	}
+	.views-field-path {
+		float: right;
+		margin-right: 25px;
+	}
 }
-
+/*homepage products shop*/
+.homepage-cd-shop {
+	 .views-row {
+		float: left;
+		margin-right: 22px;
+		width: 150px;
+		margin-left: 12px;
+		margin-top: 20px;
+		img {
+			height:150px;
+		}
+	}
+}
 
 
