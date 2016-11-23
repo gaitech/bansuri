@@ -10013,6 +10013,27 @@ header #block-bansuri-main-menu ul li a:hover {
   float: right;
 }
 
+/* line 237, ../sass/custom/_page.scss */
+.view-photo-gallery .gallery-title {
+  font-family: Georgia,"Times New Roman",Times,serif;
+  color: #af2900;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+/* line 243, ../sass/custom/_page.scss */
+.view-photo-gallery .views-row {
+  width: 120px;
+  display: inline-block;
+}
+/* line 246, ../sass/custom/_page.scss */
+.view-photo-gallery .views-row img {
+  box-shadow: 0px 0px 7px #c6c6c6;
+}
+/* line 248, ../sass/custom/_page.scss */
+.view-photo-gallery .views-row img:hover {
+  box-shadow: 0px 0px 7px #000;
+}
+
 /* line 2, ../sass/custom/_footer.scss */
 .footer {
   max-width: 960px;
