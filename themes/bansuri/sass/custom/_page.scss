@@ -156,7 +156,7 @@
 }
 
 /*homepage content type Theme */
-.bansuri-content-type {
+.bansuri-content-type, .testominals {
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 20px;
 	.flute-detail-image {
@@ -194,6 +194,7 @@
 		}
 	}
 }
+/*Product CD Node page theming*/
 .product-music-cd-or-track {
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 20px;
@@ -209,5 +210,26 @@
 	.field--name-body {
 		max-width: 500px;
   		width: 100%;
+	}
+}
+/*Testomilals page theming*/
+.view-testominals {
+	.views-row {
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 20px;
+		padding-top: 10px;
+		.views-field.views-field-body {
+			display: inline-block;
+			width: 60%;
+			vertical-align: top;
+			padding-right: 20px;
+		}
+		.views-field-field-testominal-image {
+		    display: inline-block;
+		    width: 40%;
+		    img {
+		    	float: right;
+		    }
+		}
 	}
 }

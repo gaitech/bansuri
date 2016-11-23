@@ -9723,19 +9723,23 @@ header #block-bansuri-main-menu ul {
 /* line 116, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li {
   border-right: 1px solid #ff6f43;
+  display: inline-block;
+  float: initial;
+  height: 15px;
   line-height: 25px;
+  margin-top: 4px;
   text-align: center;
   white-space: nowrap;
 }
-/* line 121, ../sass/custom/_header.scss */
+/* line 125, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li a {
-  font-family: Georgia,"Times New Roman",Times,serif;
   color: wheat;
+  font-family: Georgia,"Times New Roman",Times,serif;
   opacity: 0.99;
-  padding: 0;
+  padding: 0 6px;
   text-shadow: 1px 1px 0 #000000;
-  padding-left: 6px;
-  padding-right: 6px;
+  line-height: 16px;
+  font-size: 12px;
 }
 
 /* line 2, ../sass/custom/_page.scss */
@@ -9915,12 +9919,12 @@ header #block-bansuri-main-menu ul li a {
 
 /*homepage content type Theme */
 /* line 159, ../sass/custom/_page.scss */
-.bansuri-content-type {
+.bansuri-content-type, .testominals {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
 /* line 162, ../sass/custom/_page.scss */
-.bansuri-content-type .flute-detail-image {
+.bansuri-content-type .flute-detail-image, .testominals .flute-detail-image {
   max-width: 250px;
   width: 100%;
   float: right;
@@ -9958,13 +9962,14 @@ header #block-bansuri-main-menu ul li a {
   margin-top: 10px;
 }
 
-/* line 197, ../sass/custom/_page.scss */
+/*Product CD Node page theming*/
+/* line 198, ../sass/custom/_page.scss */
 .product-music-cd-or-track {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
   padding-left: 10px;
 }
-/* line 201, ../sass/custom/_page.scss */
+/* line 202, ../sass/custom/_page.scss */
 .product-music-cd-or-track .field--name-uc-product-image {
   position: absolute;
   top: 20px;
@@ -9973,10 +9978,34 @@ header #block-bansuri-main-menu ul li a {
   right: 0;
   right: 10px;
 }
-/* line 209, ../sass/custom/_page.scss */
+/* line 210, ../sass/custom/_page.scss */
 .product-music-cd-or-track .field--name-body {
   max-width: 500px;
   width: 100%;
+}
+
+/*Testomilals page theming*/
+/* line 217, ../sass/custom/_page.scss */
+.view-testominals .views-row {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+/* line 221, ../sass/custom/_page.scss */
+.view-testominals .views-row .views-field.views-field-body {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  padding-right: 20px;
+}
+/* line 227, ../sass/custom/_page.scss */
+.view-testominals .views-row .views-field-field-testominal-image {
+  display: inline-block;
+  width: 40%;
+}
+/* line 230, ../sass/custom/_page.scss */
+.view-testominals .views-row .views-field-field-testominal-image img {
+  float: right;
 }
 
 /* line 2, ../sass/custom/_footer.scss */

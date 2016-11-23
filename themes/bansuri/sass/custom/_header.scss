@@ -115,17 +115,21 @@ header {
 			text-transform: uppercase;
 			li {
 				border-right: 1px solid #ff6f43;
+				display: inline-block;
+				float: initial;
+				height: 15px;
 				line-height: 25px;
+				margin-top: 4px;
 				text-align: center;
 				white-space: nowrap;
 				a {
-					font-family: Georgia,"Times New Roman",Times,serif;
 					color: wheat;
+					font-family: Georgia,"Times New Roman",Times,serif;
 					opacity: 0.99;
-					padding: 0;
+					padding: 0 6px;
 					text-shadow: 1px 1px 0 #000000;
-					padding-left: 6px;
-	                padding-right: 6px;
+					line-height: 16px;
+					font-size: 12px;
 				}
 			}
 		}
