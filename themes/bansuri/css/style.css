@@ -9935,6 +9935,50 @@ header #block-bansuri-main-menu ul li a {
   margin-left: 10px;
 }
 
+/*view-music CD  Shop*/
+/* line 178, ../sass/custom/_page.scss */
+.view-music-shop .views-col {
+  float: left;
+  margin: 1%;
+  padding: 10px;
+  width: 48% !important;
+  box-shadow: 0px 0px 3px #ccc;
+}
+/* line 184, ../sass/custom/_page.scss */
+.view-music-shop .views-col .img-responsive {
+  float: right;
+  width: 170px;
+  margin-right: 20px;
+}
+/* line 189, ../sass/custom/_page.scss */
+.view-music-shop .views-col legend {
+  border: medium none;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* line 197, ../sass/custom/_page.scss */
+.product-music-cd-or-track {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+/* line 201, ../sass/custom/_page.scss */
+.product-music-cd-or-track .field--name-uc-product-image {
+  position: absolute;
+  top: 20px;
+  width: 160px;
+  height: auto;
+  right: 0;
+  right: 10px;
+}
+/* line 209, ../sass/custom/_page.scss */
+.product-music-cd-or-track .field--name-body {
+  max-width: 500px;
+  width: 100%;
+}
+
 /* line 2, ../sass/custom/_footer.scss */
 .footer {
   max-width: 960px;

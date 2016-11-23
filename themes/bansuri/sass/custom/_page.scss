@@ -173,4 +173,41 @@
 	margin-left: 10px;
 }
 
-
+/*view-music CD  Shop*/
+.view-music-shop {
+	 .views-col {
+		float: left;
+		margin: 1%;
+		padding: 10px;
+		width: 48% !important;
+		box-shadow: 0px 0px 3px #ccc;
+	    .img-responsive {
+			float: right;
+			width: 170px;
+			margin-right: 20px;
+		}
+		legend {
+			border: medium none;
+			font-size: 14px;
+			font-weight: bold;
+			margin-top: 10px;
+		}
+	}
+}
+.product-music-cd-or-track {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	.field--name-uc-product-image {
+	    position: absolute;
+	    top: 20px;
+	    width: 160px;
+	    height: auto;
+	    right: 0;
+	    right: 10px;
+	}
+	.field--name-body {
+		max-width: 500px;
+  		width: 100%;
+	}
+}
