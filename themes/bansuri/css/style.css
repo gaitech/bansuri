@@ -9608,9 +9608,10 @@ a:hover {
 /* line 13, ../sass/custom/_header.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
+  color: #fff !important;
 }
 
-/* line 17, ../sass/custom/_header.scss */
+/* line 18, ../sass/custom/_header.scss */
 .page-header {
   color: #af2900;
   font-size: 1.4em;
@@ -9624,14 +9625,14 @@ a:hover {
   font-family: Georgia,"Times New Roman",Times,serif;
 }
 
-/* line 29, ../sass/custom/_header.scss */
+/* line 30, ../sass/custom/_header.scss */
 .main-container {
   background: #fff none repeat scroll 0 0;
   max-width: 960px;
   width: 100%;
   padding: 0 20px 20px;
 }
-/* line 34, ../sass/custom/_header.scss */
+/* line 35, ../sass/custom/_header.scss */
 .main-container img {
   background-color: #e2e4e4;
   border: 1px solid #c8c8c8;
@@ -9639,7 +9640,7 @@ a:hover {
   padding: 10px;
 }
 
-/* line 41, ../sass/custom/_header.scss */
+/* line 42, ../sass/custom/_header.scss */
 .navbar.container {
   border: 0 none;
   border-radius: 0 !important;
@@ -9649,11 +9650,11 @@ a:hover {
   width: 100%;
 }
 
-/* line 49, ../sass/custom/_header.scss */
+/* line 50, ../sass/custom/_header.scss */
 header {
   background: transparent !important;
 }
-/* line 51, ../sass/custom/_header.scss */
+/* line 52, ../sass/custom/_header.scss */
 header .navbar-brand {
   color: #e7e8e3 !important;
   font-style: normal;
@@ -9667,12 +9668,12 @@ header .navbar-brand {
   padding: 5px 0 0;
   margin-right: 30px;
 }
-/* line 63, ../sass/custom/_header.scss */
+/* line 64, ../sass/custom/_header.scss */
 header .navbar-brand:hover {
   opacity: 1;
   color: #fff !important;
 }
-/* line 68, ../sass/custom/_header.scss */
+/* line 69, ../sass/custom/_header.scss */
 header .navbar-text {
   color: #af2900 !important;
   font: 14px;
@@ -9681,7 +9682,7 @@ header .navbar-text {
   margin: 0 0 20px;
   clear: both;
 }
-/* line 77, ../sass/custom/_header.scss */
+/* line 78, ../sass/custom/_header.scss */
 header .block-gtranslate select {
   background: #fff none repeat scroll 0 0;
   border: medium none;
@@ -9690,18 +9691,18 @@ header .block-gtranslate select {
   position: absolute;
   top: 16px;
 }
-/* line 87, ../sass/custom/_header.scss */
+/* line 88, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-field-mp3 {
   left: 15px;
   position: absolute;
   top: 100px;
 }
-/* line 93, ../sass/custom/_header.scss */
+/* line 94, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-field-banner-image img {
   width: 100% !important;
   height: 215px !important;
 }
-/* line 98, ../sass/custom/_header.scss */
+/* line 99, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-title {
   color: #fff;
   left: 16px;
@@ -9709,7 +9710,7 @@ header .header-audio-video .views-field-title {
   top: 132px;
   text-transform: capitalize;
 }
-/* line 107, ../sass/custom/_header.scss */
+/* line 108, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul {
   background-color: #af2900;
   display: block;
@@ -9720,7 +9721,7 @@ header #block-bansuri-main-menu ul {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 116, ../sass/custom/_header.scss */
+/* line 117, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li {
   border-right: 1px solid #ff6f43;
   display: inline-block;
@@ -9731,7 +9732,7 @@ header #block-bansuri-main-menu ul li {
   text-align: center;
   white-space: nowrap;
 }
-/* line 125, ../sass/custom/_header.scss */
+/* line 126, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li a {
   color: wheat;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -9740,6 +9741,10 @@ header #block-bansuri-main-menu ul li a {
   text-shadow: 1px 1px 0 #000000;
   line-height: 16px;
   font-size: 12px;
+}
+/* line 134, ../sass/custom/_header.scss */
+header #block-bansuri-main-menu ul li a:hover {
+  color: #fff;
 }
 
 /* line 2, ../sass/custom/_page.scss */
