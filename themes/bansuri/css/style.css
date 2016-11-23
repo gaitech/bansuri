@@ -10028,10 +10028,20 @@ header #block-bansuri-main-menu ul li a:hover {
 /* line 246, ../sass/custom/_page.scss */
 .view-photo-gallery .views-row img {
   box-shadow: 0px 0px 7px #c6c6c6;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
-/* line 248, ../sass/custom/_page.scss */
+/* line 253, ../sass/custom/_page.scss */
 .view-photo-gallery .views-row img:hover {
   box-shadow: 0px 0px 7px #000;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 /* line 2, ../sass/custom/_footer.scss */
