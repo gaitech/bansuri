@@ -9638,9 +9638,24 @@ a:hover {
   border: 1px solid #c8c8c8;
   margin: 0 5px 5px 0;
   padding: 10px;
+  box-shadow: 0px 0px 7px #c6c6c6;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 46, ../sass/custom/_header.scss */
+.main-container img:hover {
+  box-shadow: 0px 0px 7px #000;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
-/* line 42, ../sass/custom/_header.scss */
+/* line 56, ../sass/custom/_header.scss */
 .navbar.container {
   border: 0 none;
   border-radius: 0 !important;
@@ -9650,11 +9665,11 @@ a:hover {
   width: 100%;
 }
 
-/* line 50, ../sass/custom/_header.scss */
+/* line 64, ../sass/custom/_header.scss */
 header {
   background: transparent !important;
 }
-/* line 52, ../sass/custom/_header.scss */
+/* line 66, ../sass/custom/_header.scss */
 header .navbar-brand {
   color: #e7e8e3 !important;
   font-style: normal;
@@ -9668,12 +9683,12 @@ header .navbar-brand {
   padding: 5px 0 0;
   margin-right: 30px;
 }
-/* line 64, ../sass/custom/_header.scss */
+/* line 78, ../sass/custom/_header.scss */
 header .navbar-brand:hover {
   opacity: 1;
   color: #fff !important;
 }
-/* line 69, ../sass/custom/_header.scss */
+/* line 83, ../sass/custom/_header.scss */
 header .navbar-text {
   color: #af2900 !important;
   font: 14px;
@@ -9682,7 +9697,7 @@ header .navbar-text {
   margin: 0 0 20px;
   clear: both;
 }
-/* line 78, ../sass/custom/_header.scss */
+/* line 92, ../sass/custom/_header.scss */
 header .block-gtranslate select {
   background: #fff none repeat scroll 0 0;
   border: medium none;
@@ -9691,18 +9706,18 @@ header .block-gtranslate select {
   position: absolute;
   top: 16px;
 }
-/* line 88, ../sass/custom/_header.scss */
+/* line 102, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-field-mp3 {
   left: 15px;
   position: absolute;
   top: 100px;
 }
-/* line 94, ../sass/custom/_header.scss */
+/* line 108, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-field-banner-image img {
   width: 100% !important;
   height: 215px !important;
 }
-/* line 99, ../sass/custom/_header.scss */
+/* line 113, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-title {
   color: #fff;
   left: 16px;
@@ -9710,7 +9725,7 @@ header .header-audio-video .views-field-title {
   top: 132px;
   text-transform: capitalize;
 }
-/* line 108, ../sass/custom/_header.scss */
+/* line 122, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul {
   background-color: #af2900;
   display: block;
@@ -9721,7 +9736,7 @@ header #block-bansuri-main-menu ul {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 117, ../sass/custom/_header.scss */
+/* line 131, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li {
   border-right: 1px solid #ff6f43;
   display: inline-block;
@@ -9732,7 +9747,7 @@ header #block-bansuri-main-menu ul li {
   text-align: center;
   white-space: nowrap;
 }
-/* line 126, ../sass/custom/_header.scss */
+/* line 140, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li a {
   color: wheat;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -9742,7 +9757,7 @@ header #block-bansuri-main-menu ul li a {
   line-height: 16px;
   font-size: 12px;
 }
-/* line 134, ../sass/custom/_header.scss */
+/* line 148, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li a:hover {
   color: #fff;
 }
@@ -9983,58 +9998,91 @@ header #block-bansuri-main-menu ul li a:hover {
   right: 0;
   right: 10px;
 }
-/* line 210, ../sass/custom/_page.scss */
-.product-music-cd-or-track .field--name-body {
-  max-width: 500px;
-  width: 100%;
-}
-
-/*Testomilals page theming*/
-/* line 217, ../sass/custom/_page.scss */
-.view-testominals .views-row {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
-  padding-top: 10px;
-}
-/* line 221, ../sass/custom/_page.scss */
-.view-testominals .views-row .views-field.views-field-body {
-  display: inline-block;
-  width: 60%;
-  vertical-align: top;
-  padding-right: 20px;
-}
-/* line 227, ../sass/custom/_page.scss */
-.view-testominals .views-row .views-field-field-testominal-image {
-  display: inline-block;
-  width: 40%;
-}
-/* line 230, ../sass/custom/_page.scss */
-.view-testominals .views-row .views-field-field-testominal-image img {
-  float: right;
-}
-
-/* line 237, ../sass/custom/_page.scss */
-.view-photo-gallery .gallery-title {
-  font-family: Georgia,"Times New Roman",Times,serif;
-  color: #af2900;
-  font-size: 18px;
-  padding-bottom: 20px;
-}
-/* line 243, ../sass/custom/_page.scss */
-.view-photo-gallery .views-row {
-  width: 120px;
-  display: inline-block;
-}
-/* line 246, ../sass/custom/_page.scss */
-.view-photo-gallery .views-row img {
-  box-shadow: 0px 0px 7px #c6c6c6;
+/* line 209, ../sass/custom/_page.scss */
+.product-music-cd-or-track .field--name-uc-product-image img {
+  box-shadow: 0px 0px 3px #ccc;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 253, ../sass/custom/_page.scss */
+/* line 216, ../sass/custom/_page.scss */
+.product-music-cd-or-track .field--name-uc-product-image img:hover {
+  box-shadow: 0px 0px 3px #000;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 226, ../sass/custom/_page.scss */
+.product-music-cd-or-track .field--name-body {
+  max-width: 500px;
+  width: 100%;
+}
+
+/*Testomilals page theming*/
+/* line 233, ../sass/custom/_page.scss */
+.view-testominals .views-row {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+/* line 237, ../sass/custom/_page.scss */
+.view-testominals .views-row .views-field.views-field-body {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  padding-right: 20px;
+}
+/* line 243, ../sass/custom/_page.scss */
+.view-testominals .views-row .views-field-field-testominal-image {
+  display: inline-block;
+  width: 40%;
+}
+/* line 246, ../sass/custom/_page.scss */
+.view-testominals .views-row .views-field-field-testominal-image img {
+  float: right;
+  box-shadow: 0px 0px 3px #ccc;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 254, ../sass/custom/_page.scss */
+.view-testominals .views-row .views-field-field-testominal-image img:hover {
+  box-shadow: 0px 0px 3px #000;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* line 267, ../sass/custom/_page.scss */
+.view-photo-gallery .gallery-title {
+  font-family: Georgia,"Times New Roman",Times,serif;
+  color: #af2900;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+/* line 273, ../sass/custom/_page.scss */
+.view-photo-gallery .views-row {
+  width: 120px;
+  display: inline-block;
+}
+/* line 276, ../sass/custom/_page.scss */
+.view-photo-gallery .views-row img {
+  box-shadow: 0px 0px 7px #ccc;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 283, ../sass/custom/_page.scss */
 .view-photo-gallery .views-row img:hover {
   box-shadow: 0px 0px 7px #000;
   -webkit-transition: all 0.5s;
