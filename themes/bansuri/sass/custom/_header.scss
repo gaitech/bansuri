@@ -137,6 +137,9 @@ header {
 				margin-top: 4px;
 				text-align: center;
 				white-space: nowrap;
+				&:nth-last-child(1) {
+					border:none;
+				}
 				a {
 					color: wheat;
 					font-family: Georgia,"Times New Roman",Times,serif;
