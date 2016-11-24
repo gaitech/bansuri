@@ -1,3 +1,76 @@
+.col-sm-9 {
+  width: 70%;
+}
+.col-sm-3 {
+  width: 30%;
+}
+.region-sidebar-second {
+	background: none;
+	border: none;
+	h2 {
+	border-bottom: 1px dotted;
+	color: #af2900;
+	font-size: 16px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-top: 5px;
+	text-transform: capitalize;
+	background-color: rgba(175,41,0,.2);
+	font-family: Georgia,"Times New Roman",Times,serif;
+	margin-bottom: 0;
+	margin-top: 0;
+	}
+	.bansuri-cds {
+		background:url("../images/bg-edges.png");
+		.view {
+    		padding-left: 10px;
+    		padding-right: 10px;
+		    a {
+			    color: #af2900;
+			    padding-left: 12px;
+			}
+		}
+	}
+	.glossery-term {
+		margin-top: 20px;
+		background:url("../images/bg-edges.png");
+
+    	p {
+    		padding-left: 10px;
+    		padding-right: 10px;
+    		&:nth-of-type(1) {
+		        font-size: 12px;
+			    font-weight: bold;
+			    text-align: center;
+			    padding-top: 10px;
+			}
+		}
+	}
+	.logout {
+		background:url("../images/bg-edges.png");
+		margin-top: 20px;
+	    a {
+    		color: #c24e37;
+    		text-decoration: none;
+			-webkit-transition: all 0.5s;
+		    -moz-transition: all 0.5s;
+		    -ms-transition: all 0.5s;
+		    -o-transition: all 0.5s;
+		    transition: all 0.5s;
+	        &:hover {
+	    	    color:#f10000;
+		    	-webkit-transition: all 0.5s;
+			    -moz-transition: all 0.5s;
+			    -ms-transition: all 0.5s;
+			    -o-transition: all 0.5s;
+			    transition: all 0.5s;
+	        }
+	    }
+	}
+}
+/*side bar theming*/
+
+
 .region-content {
 	.views-field-title {
 		color: #af2900;
@@ -206,7 +279,7 @@
 	}
 }
 /*Product CD Node page theming*/
-.product-music-cd-or-track {
+.product-music-cd-or-track ,.product-flute {
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 20px;
 	padding-left: 10px;
@@ -221,6 +294,12 @@
 	.field--name-body {
 		max-width: 500px;
   		width: 100%;
+	}
+	.display-price {
+		display: none;
+	}
+	.form-actions {
+	    margin-top: 10px;
 	}
 }
 /*Testomilals page theming*/
@@ -269,5 +348,72 @@
 			    transition: all 0.5s;
 	    	}
 	    }
+	}
+}
+
+/*flute shop page theming*/
+.flute-shop {
+	.table {
+		margin-bottom: 20px;
+		max-width: 100%;
+		width: 100%;
+		border: 1px solid #ccc;
+		margin-top: 15px;
+		thead {
+		    background: #ccc;
+		}
+		.views-field-title {
+			a {
+			    font-size: 14px;
+			    text-transform: capitalize;
+			}
+		}
+	}
+}
+/*videos gallery page theming*/
+
+.view-id-videos {
+	.views-row {
+	    border-bottom: 1px solid #ccc;
+	    padding-bottom: 30px;
+	    padding-top: 10px;
+	 	.views-field-field-embed-video {
+		    max-width: 500px;
+		    height: auto;
+		    width: 100%;
+		}
+	}
+}
+/*Bansuri blog page theming*/
+.view-bansuri-blog {
+	.views-row {
+	    clear: both;
+	    padding-top: 10px;
+	    &:nth-of-type(1) {
+		    .views-field-title {
+		    	border-top: none;
+		    	padding-top: 0;
+		    }
+	    }
+	    .views-field-title {
+	    	border-top: 1px solid #ccc;
+	    	padding-top: 10px;
+	    }
+	    .views-field-field-blog-image {
+		    float: right;
+		    max-width: 380px;
+		    width: 100%;
+		}
+	}
+}
+/*Blog node page theming */
+ .blog {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	.flute-detail-image {
+		max-width: 400px;
+		width: 100%;
+		float: right;
+		margin-left: 10px;
 	}
 }

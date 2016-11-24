@@ -85,24 +85,17 @@
   {% endif %}
   {{ title_suffix }}
 
-  {% if display_submitted %}
-    <footer>
+  <div{{ content_attributes.addClass('content') }}>
+      <div class="flute-detail-image"> {{ content.field_blog_image }} </div>
+      <footer>
       {{ author_picture }}
       <div{{ author_attributes.addClass('author') }}>
         {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
         {{ metadata }}
       </div>
     </footer>
-  {% endif %}
 
-  <div{{ content_attributes.addClass('content') }}>
-   <div class="flute-detail-desc "> {{ content.field_other_description }}</div>
-
-    <div class="flute-detail-image-slideshow">  
-    {{ drupal_view('homepage_slide_show_for_inner_page', 'block_1') }}
-     </div>
-    <div class="flute-detail-body"> {{ content.body }}</div>
-    <div class="flute-shop" >{{ drupal_view('bansuri_flute_shop', 'block_1') }}</div>
+      <div class="flute-detail-body"> {{ content.body }}</div>
   </div>
 
 </article>
