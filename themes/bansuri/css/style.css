@@ -10233,14 +10233,21 @@ header #block-bansuri-main-menu ul li a:hover {
   max-width: 380px;
   width: 100%;
 }
+/* line 411, ../sass/custom/_page.scss */
+.view-bansuri-blog .pager {
+  clear: both;
+  padding-top: 20px;
+  width: 230px;
+  float: right;
+}
 
 /*Blog node page theming */
-/* line 413, ../sass/custom/_page.scss */
+/* line 419, ../sass/custom/_page.scss */
 .blog {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 416, ../sass/custom/_page.scss */
+/* line 422, ../sass/custom/_page.scss */
 .blog .flute-detail-image {
   max-width: 400px;
   width: 100%;
@@ -10249,7 +10256,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*view cart theming*/
-/* line 426, ../sass/custom/_page.scss */
+/* line 432, ../sass/custom/_page.scss */
 .uc-cart-view-form .priority-low img {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   height: 48px;
@@ -10258,39 +10265,47 @@ header #block-bansuri-main-menu ul li a:hover {
   width: 70px;
 }
 
-/* line 435, ../sass/custom/_page.scss */
+/* line 441, ../sass/custom/_page.scss */
 #contact-message-feedback-form {
   width: 600px;
 }
 
 /*form checkout*/
-/* line 440, ../sass/custom/_page.scss */
+/* line 446, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-text {
   max-width: 430px;
   width: 100%;
 }
-/* line 444, ../sass/custom/_page.scss */
+/* line 450, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .select-wrapper {
   max-width: 430px;
   width: 100%;
 }
-/* line 448, ../sass/custom/_page.scss */
+/* line 454, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .input-group-addon {
   display: none;
 }
-/* line 451, ../sass/custom/_page.scss */
+/* line 457, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-select {
   width: 430px;
 }
-/* line 454, ../sass/custom/_page.scss */
+/* line 460, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email {
   padding-left: 24px;
 }
-/* line 456, ../sass/custom/_page.scss */
+/* line 462, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email .form-email {
   max-width: 430px;
   width: 100%;
   display: inline-block;
+}
+/* line 468, ../sass/custom/_page.scss */
+.uc-cart-checkout-form img {
+  border: none;
+  background: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* line 2, ../sass/custom/_footer.scss */

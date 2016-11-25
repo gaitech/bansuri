@@ -408,6 +408,12 @@
 		    width: 100%;
 		}
 	}
+	.pager {
+	    clear: both;
+	    padding-top: 20px;
+	    width: 230px;
+	    float: right;
+	}
 }
 /*Blog node page theming */
  .blog {
@@ -459,4 +465,12 @@
 		    display: inline-block;
 	    }
     }
+    img {
+	    border: none;
+	    background: none;
+	    box-shadow: none;
+	    margin: 0;
+	    padding: 0;
 }
+}
+
