@@ -10266,15 +10266,21 @@ header #block-bansuri-main-menu ul li a:hover {
 /*form checkout*/
 /* line 440, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-text {
-  width: 430px;
+  max-width: 430px;
+  width: 100%;
 }
-/* line 443, ../sass/custom/_page.scss */
+/* line 444, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .select-wrapper {
-  width: 430px;
+  max-width: 430px;
+  width: 100%;
 }
-/* line 446, ../sass/custom/_page.scss */
+/* line 448, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .input-group-addon {
   display: none;
+}
+/* line 451, ../sass/custom/_page.scss */
+.uc-cart-checkout-form .form-type-email {
+  padding-left: 24px;
 }
 
 /* line 2, ../sass/custom/_footer.scss */

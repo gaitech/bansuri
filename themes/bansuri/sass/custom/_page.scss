@@ -438,12 +438,17 @@
 /*form checkout*/
 .uc-cart-checkout-form {
 	.form-text {
-	  width: 430px;
+	    max-width: 430px;
+	    width: 100%;
 	}
 	.select-wrapper {
-	  width: 430px;
+	    max-width: 430px;
+	    width: 100%;
 	}
 	.input-group-addon {
-	  display: none;
+	    display: none;
+	}
+	.form-type-email {
+	    padding-left: 24px;
 	}
 }
