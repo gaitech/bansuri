@@ -1,4 +1,0 @@
-<?php
-function custom_bansuri_preprocess_block(&$variables) {
-  $variables['view1'] = views_embed_view('hompage_slideshow', 'block_1');
-}
