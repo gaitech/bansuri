@@ -10191,20 +10191,33 @@ header #block-bansuri-main-menu ul li a:hover {
 .flute-shop .table thead {
   background: #ccc;
 }
-/* line 369, ../sass/custom/_page.scss */
+/* line 368, ../sass/custom/_page.scss */
+.flute-shop .table .views-field-title {
+  color: none;
+  font-family: arial;
+  font-size: auto;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  opacity: 1;
+  text-transform: capitalize;
+}
+/* line 379, ../sass/custom/_page.scss */
 .flute-shop .table .views-field-title a {
   font-size: 14px;
   text-transform: capitalize;
 }
 
 /*videos gallery page theming*/
-/* line 379, ../sass/custom/_page.scss */
+/* line 389, ../sass/custom/_page.scss */
 .view-id-videos .views-row {
   border-bottom: 1px solid #ccc;
   padding-bottom: 30px;
   padding-top: 10px;
 }
-/* line 383, ../sass/custom/_page.scss */
+/* line 393, ../sass/custom/_page.scss */
 .view-id-videos .views-row .views-field-field-embed-video {
   max-width: 500px;
   height: auto;
@@ -10212,28 +10225,28 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*Bansuri blog page theming*/
-/* line 392, ../sass/custom/_page.scss */
+/* line 402, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row {
   clear: both;
   padding-top: 10px;
 }
-/* line 396, ../sass/custom/_page.scss */
+/* line 406, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row:nth-of-type(1) .views-field-title {
   border-top: none;
   padding-top: 0;
 }
-/* line 401, ../sass/custom/_page.scss */
+/* line 411, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row .views-field-title {
   border-top: 1px solid #ccc;
   padding-top: 10px;
 }
-/* line 405, ../sass/custom/_page.scss */
+/* line 415, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row .views-field-field-blog-image {
   float: right;
   max-width: 380px;
   width: 100%;
 }
-/* line 411, ../sass/custom/_page.scss */
+/* line 421, ../sass/custom/_page.scss */
 .view-bansuri-blog .pager {
   clear: both;
   padding-top: 20px;
@@ -10242,12 +10255,12 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*Blog node page theming */
-/* line 419, ../sass/custom/_page.scss */
+/* line 429, ../sass/custom/_page.scss */
 .blog {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 422, ../sass/custom/_page.scss */
+/* line 432, ../sass/custom/_page.scss */
 .blog .flute-detail-image {
   max-width: 400px;
   width: 100%;
@@ -10256,7 +10269,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*view cart theming*/
-/* line 432, ../sass/custom/_page.scss */
+/* line 442, ../sass/custom/_page.scss */
 .uc-cart-view-form .priority-low img {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   height: 48px;
@@ -10265,47 +10278,48 @@ header #block-bansuri-main-menu ul li a:hover {
   width: 70px;
 }
 
-/* line 441, ../sass/custom/_page.scss */
+/* line 451, ../sass/custom/_page.scss */
 #contact-message-feedback-form {
   width: 600px;
 }
 
 /*form checkout*/
-/* line 446, ../sass/custom/_page.scss */
+/* line 456, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-text {
   max-width: 430px;
   width: 100%;
 }
-/* line 450, ../sass/custom/_page.scss */
+/* line 460, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .select-wrapper {
   max-width: 430px;
   width: 100%;
 }
-/* line 454, ../sass/custom/_page.scss */
+/* line 464, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .input-group-addon {
   display: none;
 }
-/* line 457, ../sass/custom/_page.scss */
+/* line 467, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-select {
   width: 430px;
 }
-/* line 460, ../sass/custom/_page.scss */
+/* line 470, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email {
   padding-left: 24px;
 }
-/* line 462, ../sass/custom/_page.scss */
+/* line 472, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email .form-email {
   max-width: 430px;
   width: 100%;
   display: inline-block;
 }
-/* line 468, ../sass/custom/_page.scss */
+/* line 478, ../sass/custom/_page.scss */
 .uc-cart-checkout-form img {
   border: none;
   background: none;
   box-shadow: none;
   margin: 0;
   padding: 0;
+  display: initial;
 }
 
 /* line 2, ../sass/custom/_footer.scss */

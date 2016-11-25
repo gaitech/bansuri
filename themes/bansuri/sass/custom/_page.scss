@@ -366,6 +366,16 @@
 		    background: #ccc;
 		}
 		.views-field-title {
+			color: none;
+			font-family: arial;
+			font-size: auto;
+			font-weight: bold;
+			letter-spacing: 0;
+			line-height: auto;
+			margin-bottom: 0;
+			margin-top: 0;
+			opacity: 1;
+			text-transform: capitalize;
 			a {
 			    font-size: 14px;
 			    text-transform: capitalize;
@@ -471,6 +481,7 @@
 	    box-shadow: none;
 	    margin: 0;
 	    padding: 0;
-}
+	    display: initial;
+	}
 }
 
