@@ -420,3 +420,18 @@
 		margin-left: 10px;
 	}
 }
+/*view cart theming*/
+.uc-cart-view-form {
+	.priority-low {
+		img {
+		    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+		    height: 48px;
+		    margin-right: 46px;
+		    padding: 2px !important;
+		    width: 70px;
+		}
+	}
+}
+#contact-message-feedback-form {
+  width: 600px;
+}
