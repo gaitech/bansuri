@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
 /**
  * Default Variables.
  *
@@ -9707,17 +9708,22 @@ header .block-gtranslate select {
   top: 16px;
 }
 /* line 102, ../sass/custom/_header.scss */
+header .header-audio-video .views-row {
+  background: url("../images/bg-Ravishankar40047.jpg");
+  height: 205px;
+}
+/* line 106, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-field-mp3 {
   left: 15px;
   position: absolute;
   top: 100px;
 }
-/* line 108, ../sass/custom/_header.scss */
+/* line 112, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-field-banner-image img {
   width: 100% !important;
   height: 215px !important;
 }
-/* line 113, ../sass/custom/_header.scss */
+/* line 117, ../sass/custom/_header.scss */
 header .header-audio-video .views-field-title {
   color: #fff;
   left: 16px;
@@ -9725,7 +9731,7 @@ header .header-audio-video .views-field-title {
   top: 132px;
   text-transform: capitalize;
 }
-/* line 122, ../sass/custom/_header.scss */
+/* line 126, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul {
   background-color: #af2900;
   display: block;
@@ -9736,7 +9742,7 @@ header #block-bansuri-main-menu ul {
   text-align: center;
   text-transform: uppercase;
 }
-/* line 131, ../sass/custom/_header.scss */
+/* line 135, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li {
   border-right: 1px solid #ff6f43;
   display: inline-block;
@@ -9747,11 +9753,11 @@ header #block-bansuri-main-menu ul li {
   text-align: center;
   white-space: nowrap;
 }
-/* line 140, ../sass/custom/_header.scss */
+/* line 144, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li:nth-last-child(1) {
   border: none;
 }
-/* line 143, ../sass/custom/_header.scss */
+/* line 147, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li a {
   color: wheat;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -9761,7 +9767,7 @@ header #block-bansuri-main-menu ul li a {
   line-height: 16px;
   font-size: 12px;
 }
-/* line 151, ../sass/custom/_header.scss */
+/* line 155, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li a:hover {
   color: #fff;
 }
