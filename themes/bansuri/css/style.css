@@ -10263,6 +10263,20 @@ header #block-bansuri-main-menu ul li a:hover {
   width: 600px;
 }
 
+/*form checkout*/
+/* line 440, ../sass/custom/_page.scss */
+.uc-cart-checkout-form .form-text {
+  width: 430px;
+}
+/* line 443, ../sass/custom/_page.scss */
+.uc-cart-checkout-form .select-wrapper {
+  width: 430px;
+}
+/* line 446, ../sass/custom/_page.scss */
+.uc-cart-checkout-form .input-group-addon {
+  display: none;
+}
+
 /* line 2, ../sass/custom/_footer.scss */
 .footer {
   max-width: 960px;
