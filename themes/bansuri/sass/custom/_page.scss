@@ -449,6 +449,11 @@
 	    display: none;
 	}
 	.form-type-email {
-	    padding-left: 24px;
-	}
+        padding-left: 24px;
+  	    .form-email {
+		    max-width: 430px;
+		    width: 100%;
+		    display: inline-block;
+	    }
+    }
 }

@@ -10282,6 +10282,12 @@ header #block-bansuri-main-menu ul li a:hover {
 .uc-cart-checkout-form .form-type-email {
   padding-left: 24px;
 }
+/* line 453, ../sass/custom/_page.scss */
+.uc-cart-checkout-form .form-type-email .form-email {
+  max-width: 430px;
+  width: 100%;
+  display: inline-block;
+}
 
 /* line 2, ../sass/custom/_footer.scss */
 .footer {
