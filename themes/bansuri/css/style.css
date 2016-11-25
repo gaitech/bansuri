@@ -10248,6 +10248,21 @@ header #block-bansuri-main-menu ul li a:hover {
   margin-left: 10px;
 }
 
+/*view cart theming*/
+/* line 426, ../sass/custom/_page.scss */
+.uc-cart-view-form .priority-low img {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  height: 48px;
+  margin-right: 46px;
+  padding: 2px !important;
+  width: 70px;
+}
+
+/* line 435, ../sass/custom/_page.scss */
+#contact-message-feedback-form {
+  width: 600px;
+}
+
 /* line 2, ../sass/custom/_footer.scss */
 .footer {
   max-width: 960px;
