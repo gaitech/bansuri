@@ -116,6 +116,9 @@
 .home-main-slider {
 	padding-bottom: 10px;
 	border-bottom: 1px solid #ccc;
+	.views_slideshow_cycle_slide {
+  		background: none !important;
+	}
 	.attachment-before {
 		.view-content{
 			width: 100%;
@@ -366,7 +369,7 @@
 		    background: #ccc;
 		}
 		.views-field-title {
-			color: #333;
+			color: #333	;
 			font-family: arial;
 			font-size: auto;
 			font-weight: bold;
@@ -484,6 +487,44 @@
 	    margin: 0;
 	    padding: 0;
 	    display: initial;
+	}
+}
+/*theme captcha*/
+.captcha {
+    padding-bottom: 20px;
+    .captcha {
+    	img {
+		    box-shadow: none;
+		    padding: 0;
+		    border: none;
+			&:hover {
+				box-shadow:none;
+			}
+		}
+	}
+}
+
+/*override bootstrap theme*/
+.btn-primary {
+    background-color: #af2900;
+    border-color: #af2900;
+    &:hover {
+	    background-color: #f10000;
+  		border-color: #f10000;
+	}
+}
+.btn {
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; 
+	&:hover {
+		-webkit-transition: all 0.5s;
+	    -moz-transition: all 0.5s;
+	    -ms-transition: all 0.5s;
+	    -o-transition: all 0.5s;
+	    transition: all 0.5s; 
 	}
 }
 
