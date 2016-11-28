@@ -492,14 +492,12 @@
 /*theme captcha*/
 .captcha {
     padding-bottom: 20px;
-    .captcha {
-    	img {
-		    box-shadow: none;
-		    padding: 0;
-		    border: none;
-			&:hover {
-				box-shadow:none;
-			}
+  	img {
+	    box-shadow: none;
+	    padding: 0;
+	    border: none;
+		&:hover {
+			box-shadow:none;
 		}
 	}
 }

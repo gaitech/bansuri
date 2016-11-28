@@ -10332,30 +10332,30 @@ header #block-bansuri-main-menu ul li a:hover {
 .captcha {
   padding-bottom: 20px;
 }
-/* line 496, ../sass/custom/_page.scss */
-.captcha .captcha img {
+/* line 495, ../sass/custom/_page.scss */
+.captcha img {
   box-shadow: none;
   padding: 0;
   border: none;
 }
-/* line 500, ../sass/custom/_page.scss */
-.captcha .captcha img:hover {
+/* line 499, ../sass/custom/_page.scss */
+.captcha img:hover {
   box-shadow: none;
 }
 
 /*override bootstrap theme*/
-/* line 508, ../sass/custom/_page.scss */
+/* line 506, ../sass/custom/_page.scss */
 .btn-primary {
   background-color: #af2900;
   border-color: #af2900;
 }
-/* line 511, ../sass/custom/_page.scss */
+/* line 509, ../sass/custom/_page.scss */
 .btn-primary:hover {
   background-color: #f10000;
   border-color: #f10000;
 }
 
-/* line 516, ../sass/custom/_page.scss */
+/* line 514, ../sass/custom/_page.scss */
 .btn {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -10363,7 +10363,7 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 522, ../sass/custom/_page.scss */
+/* line 520, ../sass/custom/_page.scss */
 .btn:hover {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
