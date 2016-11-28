@@ -492,10 +492,13 @@
 /*theme captcha*/
 .captcha {
     padding-bottom: 20px;
-  	img {
-	    box-shadow: none;
+}
+
+.captcha {
+	img {
 	    padding: 0;
-	    border: none;
+	    border: 0;
+	    box-shadow: none;
 		&:hover {
 			box-shadow:none;
 		}
