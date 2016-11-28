@@ -68,7 +68,7 @@ header {
 	    font-weight: normal;
 	    letter-spacing: 11px;
 	    text-decoration: none;
-		font: 2.5em/1.3em;
+		font: normal 2.5em/1.3em Georgia, "Times New Roman", Times, serif;
 		margin: 0;
 		opacity: 0.99;
 		text-transform: uppercase;
@@ -92,7 +92,6 @@ header {
 			background: #fff none repeat scroll 0 0;
 			border: medium none;
 			height: 25px;
-			padding-left: 20px;
 			position: absolute;
 			top: 16px;
 		}
