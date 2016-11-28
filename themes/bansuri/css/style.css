@@ -10193,7 +10193,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 /* line 368, ../sass/custom/_page.scss */
 .flute-shop .table .views-field-title {
-  color: none;
+  color: #333;
   font-family: arial;
   font-size: auto;
   font-weight: bold;
@@ -10203,21 +10203,22 @@ header #block-bansuri-main-menu ul li a:hover {
   margin-top: 0;
   opacity: 1;
   text-transform: capitalize;
+  font-size: 13px;
 }
-/* line 379, ../sass/custom/_page.scss */
+/* line 381, ../sass/custom/_page.scss */
 .flute-shop .table .views-field-title a {
   font-size: 14px;
   text-transform: capitalize;
 }
 
 /*videos gallery page theming*/
-/* line 389, ../sass/custom/_page.scss */
+/* line 391, ../sass/custom/_page.scss */
 .view-id-videos .views-row {
   border-bottom: 1px solid #ccc;
   padding-bottom: 30px;
   padding-top: 10px;
 }
-/* line 393, ../sass/custom/_page.scss */
+/* line 395, ../sass/custom/_page.scss */
 .view-id-videos .views-row .views-field-field-embed-video {
   max-width: 500px;
   height: auto;
@@ -10225,28 +10226,28 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*Bansuri blog page theming*/
-/* line 402, ../sass/custom/_page.scss */
+/* line 404, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row {
   clear: both;
   padding-top: 10px;
 }
-/* line 406, ../sass/custom/_page.scss */
+/* line 408, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row:nth-of-type(1) .views-field-title {
   border-top: none;
   padding-top: 0;
 }
-/* line 411, ../sass/custom/_page.scss */
+/* line 413, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row .views-field-title {
   border-top: 1px solid #ccc;
   padding-top: 10px;
 }
-/* line 415, ../sass/custom/_page.scss */
+/* line 417, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row .views-field-field-blog-image {
   float: right;
   max-width: 380px;
   width: 100%;
 }
-/* line 421, ../sass/custom/_page.scss */
+/* line 423, ../sass/custom/_page.scss */
 .view-bansuri-blog .pager {
   clear: both;
   padding-top: 20px;
@@ -10255,12 +10256,12 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*Blog node page theming */
-/* line 429, ../sass/custom/_page.scss */
+/* line 431, ../sass/custom/_page.scss */
 .blog {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 432, ../sass/custom/_page.scss */
+/* line 434, ../sass/custom/_page.scss */
 .blog .flute-detail-image {
   max-width: 400px;
   width: 100%;
@@ -10269,7 +10270,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*view cart theming*/
-/* line 442, ../sass/custom/_page.scss */
+/* line 444, ../sass/custom/_page.scss */
 .uc-cart-view-form .priority-low img {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   height: 48px;
@@ -10278,41 +10279,41 @@ header #block-bansuri-main-menu ul li a:hover {
   width: 70px;
 }
 
-/* line 451, ../sass/custom/_page.scss */
+/* line 453, ../sass/custom/_page.scss */
 #contact-message-feedback-form {
   width: 600px;
 }
 
 /*form checkout*/
-/* line 456, ../sass/custom/_page.scss */
+/* line 458, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-text {
   max-width: 430px;
   width: 100%;
 }
-/* line 460, ../sass/custom/_page.scss */
+/* line 462, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .select-wrapper {
   max-width: 430px;
   width: 100%;
 }
-/* line 464, ../sass/custom/_page.scss */
+/* line 466, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .input-group-addon {
   display: none;
 }
-/* line 467, ../sass/custom/_page.scss */
+/* line 469, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-select {
   width: 430px;
 }
-/* line 470, ../sass/custom/_page.scss */
+/* line 472, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email {
   padding-left: 24px;
 }
-/* line 472, ../sass/custom/_page.scss */
+/* line 474, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email .form-email {
   max-width: 430px;
   width: 100%;
   display: inline-block;
 }
-/* line 478, ../sass/custom/_page.scss */
+/* line 480, ../sass/custom/_page.scss */
 .uc-cart-checkout-form img {
   border: none;
   background: none;

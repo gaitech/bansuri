@@ -366,7 +366,7 @@
 		    background: #ccc;
 		}
 		.views-field-title {
-			color: none;
+			color: #333;
 			font-family: arial;
 			font-size: auto;
 			font-weight: bold;
@@ -376,6 +376,8 @@
 			margin-top: 0;
 			opacity: 1;
 			text-transform: capitalize;
+			font-size: 13px;
+
 			a {
 			    font-size: 14px;
 			    text-transform: capitalize;
