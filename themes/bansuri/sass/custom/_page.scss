@@ -359,7 +359,9 @@
 
 /*flute shop page theming*/
 .flute-shop {
-	.table {
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+    .table {
 		margin-bottom: 20px;
 		max-width: 100%;
 		width: 100%;

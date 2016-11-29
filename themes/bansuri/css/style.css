@@ -10182,7 +10182,12 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*flute shop page theming*/
-/* line 362, ../sass/custom/_page.scss */
+/* line 361, ../sass/custom/_page.scss */
+.flute-shop {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+}
+/* line 364, ../sass/custom/_page.scss */
 .flute-shop .table {
   margin-bottom: 20px;
   max-width: 100%;
@@ -10190,11 +10195,11 @@ header #block-bansuri-main-menu ul li a:hover {
   border: 1px solid #ccc;
   margin-top: 15px;
 }
-/* line 368, ../sass/custom/_page.scss */
+/* line 370, ../sass/custom/_page.scss */
 .flute-shop .table thead {
   background: #ccc;
 }
-/* line 371, ../sass/custom/_page.scss */
+/* line 373, ../sass/custom/_page.scss */
 .flute-shop .table .views-field-title {
   color: #333333;
   font-family: arial;
@@ -10208,20 +10213,20 @@ header #block-bansuri-main-menu ul li a:hover {
   text-transform: capitalize;
   font-size: 13px;
 }
-/* line 384, ../sass/custom/_page.scss */
+/* line 386, ../sass/custom/_page.scss */
 .flute-shop .table .views-field-title a {
   font-size: 14px;
   text-transform: capitalize;
 }
 
 /*videos gallery page theming*/
-/* line 394, ../sass/custom/_page.scss */
+/* line 396, ../sass/custom/_page.scss */
 .view-id-videos .views-row {
   border-bottom: 1px solid #ccc;
   padding-bottom: 30px;
   padding-top: 10px;
 }
-/* line 398, ../sass/custom/_page.scss */
+/* line 400, ../sass/custom/_page.scss */
 .view-id-videos .views-row .views-field-field-embed-video {
   max-width: 500px;
   height: auto;
@@ -10229,28 +10234,28 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*Bansuri blog page theming*/
-/* line 407, ../sass/custom/_page.scss */
+/* line 409, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row {
   clear: both;
   padding-top: 10px;
 }
-/* line 411, ../sass/custom/_page.scss */
+/* line 413, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row:nth-of-type(1) .views-field-title {
   border-top: none;
   padding-top: 0;
 }
-/* line 416, ../sass/custom/_page.scss */
+/* line 418, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row .views-field-title {
   border-top: 1px solid #ccc;
   padding-top: 10px;
 }
-/* line 420, ../sass/custom/_page.scss */
+/* line 422, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row .views-field-field-blog-image {
   float: right;
   max-width: 380px;
   width: 100%;
 }
-/* line 426, ../sass/custom/_page.scss */
+/* line 428, ../sass/custom/_page.scss */
 .view-bansuri-blog .pager {
   clear: both;
   padding-top: 20px;
@@ -10259,12 +10264,12 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*Blog node page theming */
-/* line 434, ../sass/custom/_page.scss */
+/* line 436, ../sass/custom/_page.scss */
 .blog {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 437, ../sass/custom/_page.scss */
+/* line 439, ../sass/custom/_page.scss */
 .blog .flute-detail-image {
   max-width: 400px;
   width: 100%;
@@ -10273,7 +10278,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*view cart theming*/
-/* line 447, ../sass/custom/_page.scss */
+/* line 449, ../sass/custom/_page.scss */
 .uc-cart-view-form .priority-low img {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   height: 48px;
@@ -10282,41 +10287,41 @@ header #block-bansuri-main-menu ul li a:hover {
   width: 70px;
 }
 
-/* line 456, ../sass/custom/_page.scss */
+/* line 458, ../sass/custom/_page.scss */
 #contact-message-feedback-form {
   width: 600px;
 }
 
 /*form checkout*/
-/* line 461, ../sass/custom/_page.scss */
+/* line 463, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-text {
   max-width: 430px;
   width: 100%;
 }
-/* line 465, ../sass/custom/_page.scss */
+/* line 467, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .select-wrapper {
   max-width: 430px;
   width: 100%;
 }
-/* line 469, ../sass/custom/_page.scss */
+/* line 471, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .input-group-addon {
   display: none;
 }
-/* line 472, ../sass/custom/_page.scss */
+/* line 474, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-select {
   width: 430px;
 }
-/* line 475, ../sass/custom/_page.scss */
+/* line 477, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email {
   padding-left: 24px;
 }
-/* line 477, ../sass/custom/_page.scss */
+/* line 479, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email .form-email {
   max-width: 430px;
   width: 100%;
   display: inline-block;
 }
-/* line 483, ../sass/custom/_page.scss */
+/* line 485, ../sass/custom/_page.scss */
 .uc-cart-checkout-form img {
   border: none;
   background: none;
@@ -10327,34 +10332,34 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*theme captcha*/
-/* line 493, ../sass/custom/_page.scss */
+/* line 495, ../sass/custom/_page.scss */
 .captcha {
   padding-bottom: 20px;
 }
-/* line 495, ../sass/custom/_page.scss */
+/* line 497, ../sass/custom/_page.scss */
 .captcha img {
   padding: 0;
   border: 0;
   box-shadow: none;
 }
-/* line 499, ../sass/custom/_page.scss */
+/* line 501, ../sass/custom/_page.scss */
 .captcha img:hover {
   box-shadow: none;
 }
 
 /*override bootstrap theme*/
-/* line 506, ../sass/custom/_page.scss */
+/* line 508, ../sass/custom/_page.scss */
 .btn-primary {
   background-color: #af2900;
   border-color: #af2900;
 }
-/* line 509, ../sass/custom/_page.scss */
+/* line 511, ../sass/custom/_page.scss */
 .btn-primary:hover {
   background-color: #f10000;
   border-color: #f10000;
 }
 
-/* line 514, ../sass/custom/_page.scss */
+/* line 516, ../sass/custom/_page.scss */
 .btn {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -10362,7 +10367,7 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 520, ../sass/custom/_page.scss */
+/* line 522, ../sass/custom/_page.scss */
 .btn:hover {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
