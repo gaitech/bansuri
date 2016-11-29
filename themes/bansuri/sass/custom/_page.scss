@@ -11,6 +11,23 @@
 .region-sidebar-second {
 	background: none;
 	border: none;
+    a {
+		color: #c24e37;
+		text-decoration: none;
+		-webkit-transition: all 0.5s;
+	    -moz-transition: all 0.5s;
+	    -ms-transition: all 0.5s;
+	    -o-transition: all 0.5s;
+	    transition: all 0.5s;
+        &:hover {
+    	    color:#f10000;
+	    	-webkit-transition: all 0.5s;
+		    -moz-transition: all 0.5s;
+		    -ms-transition: all 0.5s;
+		    -o-transition: all 0.5s;
+		    transition: all 0.5s;
+        }
+    }
 	h2 {
 		border-bottom: 1px dotted;
 		border-radius: 0 20px 0 0;
@@ -55,6 +72,13 @@
 		    a {
 			    color: #af2900;
 			    padding-left: 12px;
+			    &:before {
+				    content: " \2022";
+				    COLOR: #000;
+				    font-size: 15px;
+				    padding-right: 8px;
+				    line-height: 1.2em;
+				}
 			}
 		}
 	}

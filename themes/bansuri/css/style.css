@@ -9792,6 +9792,25 @@ header #block-bansuri-main-menu ul li a:hover {
   border: none;
 }
 /* line 14, ../sass/custom/_page.scss */
+.region-sidebar-second a {
+  color: #c24e37;
+  text-decoration: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 22, ../sass/custom/_page.scss */
+.region-sidebar-second a:hover {
+  color: #f10000;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 31, ../sass/custom/_page.scss */
 .region-sidebar-second h2 {
   border-bottom: 1px dotted;
   border-radius: 0 20px 0 0;
@@ -9806,7 +9825,7 @@ header #block-bansuri-main-menu ul li a:hover {
   margin-bottom: 0;
   margin-top: 0;
 }
-/* line 28, ../sass/custom/_page.scss */
+/* line 45, ../sass/custom/_page.scss */
 .region-sidebar-second .bansuri-cds {
   border-radius: 0px 20px 0px 20px;
   box-shadow: 3px 3px 10px #ccc;
@@ -9817,7 +9836,7 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 37, ../sass/custom/_page.scss */
+/* line 54, ../sass/custom/_page.scss */
 .region-sidebar-second .bansuri-cds:hover {
   box-shadow: -3px -3px 10px #6c6c6c;
   -webkit-transition: all 0.5s;
@@ -9826,26 +9845,34 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 45, ../sass/custom/_page.scss */
+/* line 62, ../sass/custom/_page.scss */
 .region-sidebar-second .bansuri-cds .description {
   padding-bottom: 15px;
   padding-top: 15px;
 }
-/* line 49, ../sass/custom/_page.scss */
+/* line 66, ../sass/custom/_page.scss */
 .region-sidebar-second .bansuri-cds .view-content {
   padding-bottom: 20px;
 }
-/* line 52, ../sass/custom/_page.scss */
+/* line 69, ../sass/custom/_page.scss */
 .region-sidebar-second .bansuri-cds .view {
   padding-left: 10px;
   padding-right: 10px;
 }
-/* line 55, ../sass/custom/_page.scss */
+/* line 72, ../sass/custom/_page.scss */
 .region-sidebar-second .bansuri-cds .view a {
   color: #af2900;
   padding-left: 12px;
 }
-/* line 61, ../sass/custom/_page.scss */
+/* line 75, ../sass/custom/_page.scss */
+.region-sidebar-second .bansuri-cds .view a:before {
+  content: " \2022";
+  COLOR: #000;
+  font-size: 15px;
+  padding-right: 8px;
+  line-height: 1.2em;
+}
+/* line 85, ../sass/custom/_page.scss */
 .region-sidebar-second .glossery-term {
   margin-top: 20px;
   box-shadow: 3px 3px 10px #ccc;
@@ -9857,7 +9884,7 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 71, ../sass/custom/_page.scss */
+/* line 95, ../sass/custom/_page.scss */
 .region-sidebar-second .glossery-term:hover {
   box-shadow: -3px -3px 10px #6c6c6c;
   -webkit-transition: all 0.5s;
@@ -9866,21 +9893,21 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 79, ../sass/custom/_page.scss */
+/* line 103, ../sass/custom/_page.scss */
 .region-sidebar-second .glossery-term p {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 20px;
   font-size: 12px;
 }
-/* line 84, ../sass/custom/_page.scss */
+/* line 108, ../sass/custom/_page.scss */
 .region-sidebar-second .glossery-term p:nth-of-type(1) {
   font-size: 12px;
   font-weight: bold;
   text-align: center;
   padding: 10px 10px 0 10px;
 }
-/* line 93, ../sass/custom/_page.scss */
+/* line 117, ../sass/custom/_page.scss */
 .region-sidebar-second .logout {
   background: url("../images/bg-edges.png");
   margin-top: 20px;
@@ -9893,7 +9920,7 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 104, ../sass/custom/_page.scss */
+/* line 128, ../sass/custom/_page.scss */
 .region-sidebar-second .logout:hover {
   box-shadow: -3px -3px 10px #6c6c6c;
   -webkit-transition: all 0.5s;
@@ -9902,12 +9929,12 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 112, ../sass/custom/_page.scss */
+/* line 136, ../sass/custom/_page.scss */
 .region-sidebar-second .logout ul {
   padding-top: 10px;
   margin-left: 20px;
 }
-/* line 115, ../sass/custom/_page.scss */
+/* line 139, ../sass/custom/_page.scss */
 .region-sidebar-second .logout ul a {
   color: #c24e37;
   text-decoration: none;
@@ -9917,7 +9944,7 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 123, ../sass/custom/_page.scss */
+/* line 147, ../sass/custom/_page.scss */
 .region-sidebar-second .logout ul a:hover {
   color: #f10000;
   -webkit-transition: all 0.5s;
@@ -9928,7 +9955,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*side bar theming*/
-/* line 139, ../sass/custom/_page.scss */
+/* line 163, ../sass/custom/_page.scss */
 .region-content .views-field-title {
   color: #af2900;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -9941,7 +9968,7 @@ header #block-bansuri-main-menu ul li a:hover {
   margin-bottom: 0.667em;
   margin-top: 0.667em;
 }
-/* line 150, ../sass/custom/_page.scss */
+/* line 174, ../sass/custom/_page.scss */
 .region-content .views-field-title a {
   color: #c24e37;
   text-decoration: none;
@@ -9951,7 +9978,7 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 158, ../sass/custom/_page.scss */
+/* line 182, ../sass/custom/_page.scss */
 .region-content .views-field-title a:hover {
   color: #f10000;
   -webkit-transition: all 0.5s;
@@ -9960,37 +9987,37 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 168, ../sass/custom/_page.scss */
+/* line 192, ../sass/custom/_page.scss */
 .region-content a {
   color: #c24e37;
   text-decoration: none;
 }
-/* line 171, ../sass/custom/_page.scss */
+/* line 195, ../sass/custom/_page.scss */
 .region-content a:hover {
   color: #f10000;
 }
 
 /*Homepage main slider block*/
-/* line 177, ../sass/custom/_page.scss */
+/* line 201, ../sass/custom/_page.scss */
 .home-main-slider {
   padding-bottom: 10px;
   border-bottom: 1px solid #ccc;
 }
-/* line 180, ../sass/custom/_page.scss */
+/* line 204, ../sass/custom/_page.scss */
 .home-main-slider .views_slideshow_cycle_slide {
   background: none !important;
 }
-/* line 184, ../sass/custom/_page.scss */
+/* line 208, ../sass/custom/_page.scss */
 .home-main-slider .attachment-before .view-content {
   width: 100%;
   float: initial;
 }
-/* line 189, ../sass/custom/_page.scss */
+/* line 213, ../sass/custom/_page.scss */
 .home-main-slider .view-content {
   width: 35%;
   float: left;
 }
-/* line 192, ../sass/custom/_page.scss */
+/* line 216, ../sass/custom/_page.scss */
 .home-main-slider .view-content img {
   background: #e2e4e4;
   padding: 10px;
@@ -9998,28 +10025,28 @@ header #block-bansuri-main-menu ul li a:hover {
   max-width: 300px;
   width: 100%;
 }
-/* line 200, ../sass/custom/_page.scss */
+/* line 224, ../sass/custom/_page.scss */
 .home-main-slider .attachment-after {
   width: 65%;
   float: left;
 }
-/* line 203, ../sass/custom/_page.scss */
+/* line 227, ../sass/custom/_page.scss */
 .home-main-slider .attachment-after .view-content {
   width: 100%;
   border: none;
 }
-/* line 206, ../sass/custom/_page.scss */
+/* line 230, ../sass/custom/_page.scss */
 .home-main-slider .attachment-after .view-content .views-field-field-other-description {
   margin-top: 10px;
 }
-/* line 209, ../sass/custom/_page.scss */
+/* line 233, ../sass/custom/_page.scss */
 .home-main-slider .attachment-after .view-content .custom-more-link {
   float: right;
   margin-top: 20px;
   margin-right: 10px;
 }
 
-/* line 217, ../sass/custom/_page.scss */
+/* line 241, ../sass/custom/_page.scss */
 .custom-more-link {
   font-family: Georgia,"Times New Roman",Times,serif;
   font-style: italic;
@@ -10028,40 +10055,40 @@ header #block-bansuri-main-menu ul li a:hover {
   color: #c24e37;
   text-decoration: none;
 }
-/* line 224, ../sass/custom/_page.scss */
+/* line 248, ../sass/custom/_page.scss */
 .custom-more-link:hover {
   color: #f10000;
 }
 
 /*homepage second block*/
-/* line 229, ../sass/custom/_page.scss */
+/* line 253, ../sass/custom/_page.scss */
 .shankar-col-1 {
   float: left;
   width: 50%;
 }
-/* line 233, ../sass/custom/_page.scss */
+/* line 257, ../sass/custom/_page.scss */
 .shankar-col-1 .views-field-field-image img {
   height: auto;
   width: 150px;
 }
-/* line 238, ../sass/custom/_page.scss */
+/* line 262, ../sass/custom/_page.scss */
 .shankar-col-1 .views-field-body {
   float: left;
   margin-right: 10px;
   width: 60%;
 }
-/* line 243, ../sass/custom/_page.scss */
+/* line 267, ../sass/custom/_page.scss */
 .shankar-col-1 .views-field-path {
   float: right;
   margin-right: 25px;
 }
 
 /*homepage products shop*/
-/* line 249, ../sass/custom/_page.scss */
+/* line 273, ../sass/custom/_page.scss */
 .homepage-cd-shop {
   clear: both;
 }
-/* line 251, ../sass/custom/_page.scss */
+/* line 275, ../sass/custom/_page.scss */
 .homepage-cd-shop .views-row {
   float: left;
   margin-right: 22px;
@@ -10069,62 +10096,62 @@ header #block-bansuri-main-menu ul li a:hover {
   margin-left: 12px;
   margin-top: 20px;
 }
-/* line 257, ../sass/custom/_page.scss */
+/* line 281, ../sass/custom/_page.scss */
 .homepage-cd-shop .views-row img {
   height: 150px;
 }
-/* line 261, ../sass/custom/_page.scss */
+/* line 285, ../sass/custom/_page.scss */
 .homepage-cd-shop .more-link {
   float: right;
   margin-top: 5px;
 }
 
-/* line 267, ../sass/custom/_page.scss */
+/* line 291, ../sass/custom/_page.scss */
 .homepage-haldipur-message {
   clear: both;
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 272, ../sass/custom/_page.scss */
+/* line 296, ../sass/custom/_page.scss */
 .homepage-haldipur-message .views-row .views-field-body {
   max-width: 470px;
   width: 100%;
   float: left;
   margin-right: 20px;
 }
-/* line 279, ../sass/custom/_page.scss */
+/* line 303, ../sass/custom/_page.scss */
 .homepage-haldipur-message .views-row .views-field-field-image img {
   max-width: 420px;
   width: 100%;
 }
 
-/* line 288, ../sass/custom/_page.scss */
+/* line 312, ../sass/custom/_page.scss */
 .homepage-raag .views-row .views-field-body {
   max-width: 640px;
   width: 100%;
   float: left;
   margin-right: 20px;
 }
-/* line 295, ../sass/custom/_page.scss */
+/* line 319, ../sass/custom/_page.scss */
 .homepage-raag .views-row .views-field-field-image img {
   max-width: 260px;
   border: none;
   background: none;
   box-shadow: none;
 }
-/* line 302, ../sass/custom/_page.scss */
+/* line 326, ../sass/custom/_page.scss */
 .homepage-raag .views-row .views-field-path {
   float: right;
   margin-bottom: 10px;
 }
 
 /*homepage content type Theme */
-/* line 310, ../sass/custom/_page.scss */
+/* line 334, ../sass/custom/_page.scss */
 .bansuri-content-type, .testominals {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 313, ../sass/custom/_page.scss */
+/* line 337, ../sass/custom/_page.scss */
 .bansuri-content-type .flute-detail-image, .testominals .flute-detail-image {
   max-width: 250px;
   width: 100%;
@@ -10132,7 +10159,7 @@ header #block-bansuri-main-menu ul li a:hover {
   margin-left: 10px;
 }
 
-/* line 320, ../sass/custom/_page.scss */
+/* line 344, ../sass/custom/_page.scss */
 .flute-detail-image-slideshow {
   max-width: 450px;
   width: 100%;
@@ -10141,7 +10168,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*view-music CD  Shop*/
-/* line 329, ../sass/custom/_page.scss */
+/* line 353, ../sass/custom/_page.scss */
 .view-music-shop .views-col {
   float: left;
   margin: 1%;
@@ -10149,13 +10176,13 @@ header #block-bansuri-main-menu ul li a:hover {
   width: 48% !important;
   box-shadow: 0px 0px 3px #ccc;
 }
-/* line 335, ../sass/custom/_page.scss */
+/* line 359, ../sass/custom/_page.scss */
 .view-music-shop .views-col .img-responsive {
   float: right;
   width: 170px;
   margin-right: 20px;
 }
-/* line 340, ../sass/custom/_page.scss */
+/* line 364, ../sass/custom/_page.scss */
 .view-music-shop .views-col legend {
   border: medium none;
   font-size: 14px;
@@ -10164,13 +10191,13 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*Product CD Node page theming*/
-/* line 349, ../sass/custom/_page.scss */
+/* line 373, ../sass/custom/_page.scss */
 .product-music-cd-or-track, .product-flute {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
   padding-left: 10px;
 }
-/* line 353, ../sass/custom/_page.scss */
+/* line 377, ../sass/custom/_page.scss */
 .product-music-cd-or-track .field--name-uc-product-image, .product-flute .field--name-uc-product-image {
   position: absolute;
   top: 20px;
@@ -10179,56 +10206,56 @@ header #block-bansuri-main-menu ul li a:hover {
   right: 0;
   right: 10px;
 }
-/* line 361, ../sass/custom/_page.scss */
+/* line 385, ../sass/custom/_page.scss */
 .product-music-cd-or-track .field--name-body, .product-flute .field--name-body {
   max-width: 500px;
   width: 100%;
 }
-/* line 365, ../sass/custom/_page.scss */
+/* line 389, ../sass/custom/_page.scss */
 .product-music-cd-or-track .display-price, .product-flute .display-price {
   display: none;
 }
-/* line 368, ../sass/custom/_page.scss */
+/* line 392, ../sass/custom/_page.scss */
 .product-music-cd-or-track .form-actions, .product-flute .form-actions {
   margin-top: 10px;
 }
 
 /*Testomilals page theming*/
-/* line 374, ../sass/custom/_page.scss */
+/* line 398, ../sass/custom/_page.scss */
 .view-testominals .views-row {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
   padding-top: 10px;
 }
-/* line 378, ../sass/custom/_page.scss */
+/* line 402, ../sass/custom/_page.scss */
 .view-testominals .views-row .views-field.views-field-body {
   display: inline-block;
   width: 55%;
   vertical-align: top;
   padding-right: 20px;
 }
-/* line 384, ../sass/custom/_page.scss */
+/* line 408, ../sass/custom/_page.scss */
 .view-testominals .views-row .views-field-field-testominal-image {
   display: inline-block;
   width: 45%;
 }
-/* line 387, ../sass/custom/_page.scss */
+/* line 411, ../sass/custom/_page.scss */
 .view-testominals .views-row .views-field-field-testominal-image img {
   float: right;
 }
 
-/* line 394, ../sass/custom/_page.scss */
+/* line 418, ../sass/custom/_page.scss */
 .view-photo-gallery .gallery-title {
   font-family: Georgia,"Times New Roman",Times,serif;
   color: #af2900;
   font-size: 16px;
   padding-bottom: 20px;
 }
-/* line 400, ../sass/custom/_page.scss */
+/* line 424, ../sass/custom/_page.scss */
 .view-photo-gallery .views-row {
   display: inline-block;
 }
-/* line 402, ../sass/custom/_page.scss */
+/* line 426, ../sass/custom/_page.scss */
 .view-photo-gallery .views-row img {
   box-shadow: 0px 0px 7px #c6c6c6;
   -webkit-transition: all 0.5s;
@@ -10237,7 +10264,7 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 409, ../sass/custom/_page.scss */
+/* line 433, ../sass/custom/_page.scss */
 .view-photo-gallery .views-row img:hover {
   box-shadow: 0px 0px 7px #000;
   -webkit-transition: all 0.5s;
@@ -10248,12 +10275,12 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*flute shop page theming*/
-/* line 422, ../sass/custom/_page.scss */
+/* line 446, ../sass/custom/_page.scss */
 .flute-shop {
   border-top: 1px solid #ccc;
   margin-top: 20px;
 }
-/* line 425, ../sass/custom/_page.scss */
+/* line 449, ../sass/custom/_page.scss */
 .flute-shop .table {
   margin-bottom: 20px;
   max-width: 100%;
@@ -10261,11 +10288,11 @@ header #block-bansuri-main-menu ul li a:hover {
   border: 1px solid #ccc;
   margin-top: 15px;
 }
-/* line 431, ../sass/custom/_page.scss */
+/* line 455, ../sass/custom/_page.scss */
 .flute-shop .table thead {
   background: #ccc;
 }
-/* line 434, ../sass/custom/_page.scss */
+/* line 458, ../sass/custom/_page.scss */
 .flute-shop .table .views-field-title {
   color: #333333;
   font-family: arial;
@@ -10279,20 +10306,20 @@ header #block-bansuri-main-menu ul li a:hover {
   text-transform: capitalize;
   font-size: 13px;
 }
-/* line 447, ../sass/custom/_page.scss */
+/* line 471, ../sass/custom/_page.scss */
 .flute-shop .table .views-field-title a {
   font-size: 14px;
   text-transform: capitalize;
 }
 
 /*videos gallery page theming*/
-/* line 457, ../sass/custom/_page.scss */
+/* line 481, ../sass/custom/_page.scss */
 .view-id-videos .views-row {
   border-bottom: 1px solid #ccc;
   padding-bottom: 30px;
   padding-top: 10px;
 }
-/* line 461, ../sass/custom/_page.scss */
+/* line 485, ../sass/custom/_page.scss */
 .view-id-videos .views-row .views-field-field-embed-video {
   max-width: 500px;
   height: auto;
@@ -10300,28 +10327,28 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*Bansuri blog page theming*/
-/* line 470, ../sass/custom/_page.scss */
+/* line 494, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row {
   clear: both;
   padding-top: 10px;
 }
-/* line 474, ../sass/custom/_page.scss */
+/* line 498, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row:nth-of-type(1) .views-field-title {
   border-top: none;
   padding-top: 0;
 }
-/* line 479, ../sass/custom/_page.scss */
+/* line 503, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row .views-field-title {
   border-top: 1px solid #ccc;
   padding-top: 10px;
 }
-/* line 483, ../sass/custom/_page.scss */
+/* line 507, ../sass/custom/_page.scss */
 .view-bansuri-blog .views-row .views-field-field-blog-image {
   float: right;
   max-width: 380px;
   width: 100%;
 }
-/* line 489, ../sass/custom/_page.scss */
+/* line 513, ../sass/custom/_page.scss */
 .view-bansuri-blog .pager {
   clear: both;
   padding-top: 20px;
@@ -10330,12 +10357,12 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*Blog node page theming */
-/* line 497, ../sass/custom/_page.scss */
+/* line 521, ../sass/custom/_page.scss */
 .blog {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 500, ../sass/custom/_page.scss */
+/* line 524, ../sass/custom/_page.scss */
 .blog .flute-detail-image {
   max-width: 400px;
   width: 100%;
@@ -10344,7 +10371,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*view cart theming*/
-/* line 510, ../sass/custom/_page.scss */
+/* line 534, ../sass/custom/_page.scss */
 .uc-cart-view-form .priority-low img {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   height: 48px;
@@ -10353,41 +10380,41 @@ header #block-bansuri-main-menu ul li a:hover {
   width: 70px;
 }
 
-/* line 519, ../sass/custom/_page.scss */
+/* line 543, ../sass/custom/_page.scss */
 #contact-message-feedback-form {
   width: 600px;
 }
 
 /*form checkout*/
-/* line 524, ../sass/custom/_page.scss */
+/* line 548, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-text {
   max-width: 430px;
   width: 100%;
 }
-/* line 528, ../sass/custom/_page.scss */
+/* line 552, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .select-wrapper {
   max-width: 430px;
   width: 100%;
 }
-/* line 532, ../sass/custom/_page.scss */
+/* line 556, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .input-group-addon {
   display: none;
 }
-/* line 535, ../sass/custom/_page.scss */
+/* line 559, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-select {
   width: 430px;
 }
-/* line 538, ../sass/custom/_page.scss */
+/* line 562, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email {
   padding-left: 24px;
 }
-/* line 540, ../sass/custom/_page.scss */
+/* line 564, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email .form-email {
   max-width: 430px;
   width: 100%;
   display: inline-block;
 }
-/* line 546, ../sass/custom/_page.scss */
+/* line 570, ../sass/custom/_page.scss */
 .uc-cart-checkout-form img {
   border: none;
   background: none;
@@ -10398,34 +10425,34 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*theme captcha*/
-/* line 556, ../sass/custom/_page.scss */
+/* line 580, ../sass/custom/_page.scss */
 .captcha {
   padding-bottom: 20px;
 }
-/* line 558, ../sass/custom/_page.scss */
+/* line 582, ../sass/custom/_page.scss */
 .captcha img {
   padding: 0;
   border: 0;
   box-shadow: none;
 }
-/* line 562, ../sass/custom/_page.scss */
+/* line 586, ../sass/custom/_page.scss */
 .captcha img:hover {
   box-shadow: none;
 }
 
 /*override bootstrap theme*/
-/* line 569, ../sass/custom/_page.scss */
+/* line 593, ../sass/custom/_page.scss */
 .btn-primary {
   background-color: #af2900;
   border-color: #af2900;
 }
-/* line 572, ../sass/custom/_page.scss */
+/* line 596, ../sass/custom/_page.scss */
 .btn-primary:hover {
   background-color: #f10000;
   border-color: #f10000;
 }
 
-/* line 577, ../sass/custom/_page.scss */
+/* line 601, ../sass/custom/_page.scss */
 .btn {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -10433,7 +10460,7 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 583, ../sass/custom/_page.scss */
+/* line 607, ../sass/custom/_page.scss */
 .btn:hover {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
