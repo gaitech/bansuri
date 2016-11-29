@@ -10468,6 +10468,17 @@ header #block-bansuri-main-menu ul li a:hover {
   transition: all 0.5s;
 }
 
+/*theme of node page using node id */
+/* line 617, ../sass/custom/_page.scss */
+.page-node-4 .flute-detail-image {
+  max-width: 420px;
+}
+
+/* line 622, ../sass/custom/_page.scss */
+.page-node-6 .flute-detail-image {
+  max-width: 260px;
+}
+
 /* line 2, ../sass/custom/_footer.scss */
 .footer {
   max-width: 960px;
