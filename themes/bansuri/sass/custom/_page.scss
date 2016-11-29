@@ -12,7 +12,7 @@
 	background: none;
 	border: none;
     a {
-		color: #c24e37;
+		color: #c24e37 !important;
 		text-decoration: none;
 		-webkit-transition: all 0.5s;
 	    -moz-transition: all 0.5s;
@@ -70,11 +70,10 @@
     		padding-left: 10px;
     		padding-right: 10px;
 		    a {
-			    color: #af2900;
 			    padding-left: 12px;
 			    &:before {
 				    content: " \2022";
-				    COLOR: #000;
+				    color: #000;
 				    font-size: 15px;
 				    padding-right: 8px;
 				    line-height: 1.2em;
