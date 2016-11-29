@@ -9809,7 +9809,7 @@ header #block-bansuri-main-menu ul li a:hover {
 /* line 28, ../sass/custom/_page.scss */
 .region-sidebar-second .bansuri-cds {
   border-radius: 0px 20px 0px 20px;
-  box-shadow: 0px 0px 10px #ccc;
+  box-shadow: 3px 3px 10px #ccc;
   background: url("../images/bg-edges.png");
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -9819,7 +9819,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 /* line 37, ../sass/custom/_page.scss */
 .region-sidebar-second .bansuri-cds:hover {
-  box-shadow: 0px 0px 10px #6c6c6c;
+  box-shadow: -3px -3px 10px #6c6c6c;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -9848,7 +9848,7 @@ header #block-bansuri-main-menu ul li a:hover {
 /* line 61, ../sass/custom/_page.scss */
 .region-sidebar-second .glossery-term {
   margin-top: 20px;
-  box-shadow: 0px 0px 10px #ccc;
+  box-shadow: 3px 3px 10px #ccc;
   border-radius: 0px 20px 0px 20px;
   background: url("../images/bg-edges.png");
   -webkit-transition: all 0.5s;
@@ -9859,7 +9859,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 /* line 71, ../sass/custom/_page.scss */
 .region-sidebar-second .glossery-term:hover {
-  box-shadow: 0px 0px 10px #6c6c6c;
+  box-shadow: -3px -3px 10px #6c6c6c;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -9886,7 +9886,7 @@ header #block-bansuri-main-menu ul li a:hover {
   margin-top: 20px;
   border-radius: 0px 20px 0px 20px;
   padding-bottom: 20px;
-  box-shadow: 0px 0px 10px #ccc;
+  box-shadow: 3px 3px 10px #ccc;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -9895,7 +9895,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 /* line 104, ../sass/custom/_page.scss */
 .region-sidebar-second .logout:hover {
-  box-shadow: 0px 0px 10px #6c6c6c;
+  box-shadow: -3px -3px 10px #6c6c6c;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
