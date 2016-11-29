@@ -9734,14 +9734,12 @@ header .header-audio-video .views-field-title {
 header #block-bansuri-main-menu ul {
   background-color: #af2900;
   display: block;
-  font: 12px;
-  height: 60px;
   letter-spacing: 2px;
-  padding: 5px 20px;
+  padding: 5px 5px;
   text-align: center;
   text-transform: uppercase;
 }
-/* line 133, ../sass/custom/_header.scss */
+/* line 131, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li {
   border-right: 1px solid #ff6f43;
   display: inline-block;
@@ -9752,11 +9750,11 @@ header #block-bansuri-main-menu ul li {
   text-align: center;
   white-space: nowrap;
 }
-/* line 142, ../sass/custom/_header.scss */
+/* line 140, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li:nth-last-child(1) {
   border: none;
 }
-/* line 145, ../sass/custom/_header.scss */
+/* line 143, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li a {
   color: wheat;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -9766,7 +9764,7 @@ header #block-bansuri-main-menu ul li a {
   line-height: 16px;
   font-size: 12px;
 }
-/* line 153, ../sass/custom/_header.scss */
+/* line 151, ../sass/custom/_header.scss */
 header #block-bansuri-main-menu ul li a:hover {
   color: #fff;
 }
