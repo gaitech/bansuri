@@ -96,11 +96,13 @@
   {% endif %}
 
   <div{{ content_attributes.addClass('content') }}>
-   <div class="flute-detail-desc "> {{ content.field_other_description }}</div>
+   
 
     <div class="flute-detail-image-slideshow">  
     {{ drupal_view('homepage_slide_show_for_inner_page', 'block_1') }}
      </div>
+     <div class="flute-detail-desc "> {{node.field_other_description.value|raw}} <p></p></div>
+
     <div class="flute-detail-body"> {{ content.body }}</div>
     <div class="flute-shop" >{{ drupal_view('bansuri_flute_shop', 'block_1') }}</div>
   </div>
