@@ -105,3 +105,4 @@ $settings['rebuild_access'] = TRUE;
  * directory.
  */
 $settings['skip_permissions_hardening'] = TRUE;
+$settings['trusted_host_patterns'][] = '^192.168.1.133$';

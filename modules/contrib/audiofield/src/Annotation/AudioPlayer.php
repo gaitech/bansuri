@@ -1,21 +1,19 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\audiofield\Annotation\AudioPlayer
- */
-
 namespace Drupal\audiofield\Annotation;
 
 use Drupal\Component\Annotation\Plugin;
 
 /**
- * @Annotation 
+ * Defines a AudioPlayer annotation object..
+ *
+ * @Annotation
  */
 class AudioPlayer extends Plugin {
 
-    public $id;
-    public $title = "";
-    public $file_types = array();
-    public $description = "";
+  public $id;
+  public $title = "";
+  public $fileTypes = array();
+  public $description = "";
+
 }

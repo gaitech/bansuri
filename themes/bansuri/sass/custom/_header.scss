@@ -91,9 +91,9 @@ header {
 		select {
 			background: #fff none repeat scroll 0 0;
 			border: medium none;
-			height: 25px;
-			position: absolute;
-			top: 16px;
+			height: 20px;
+			/* position: absolute;
+			/*top: 16px;*/
 		}
 	}
 	.header-audio-video {
@@ -156,4 +156,27 @@ header {
 		}
 	}
 }
-
+/* css for Home page by Brahm */
+.google-translate-block {
+  clear: both;
+  position: relative;
+  .gtranslate {
+        position: absolute;
+        bottom: 3.5em;
+        right: 29em;
+ }
+}
+.home-mp3-block {
+  background: #fff url("../../../themes/bansuri/images/bg-Ravishankar40047.jpg") no-repeat scroll center -11px;
+    height: 206px;
+	.views-field-field-mp3-file {
+		.field-content {
+			audio {
+				padding: 6em 1.5em;
+			}
+			label {
+				display: none;
+			}
+		}
+	}
+}
