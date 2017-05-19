@@ -10177,10 +10177,7 @@ header #block-bansuri-main-menu ul li a:hover {
 /* line 352, ../sass/custom/_page.scss */
 .view-music-shop .views-col {
   float: left;
-  margin: 1%;
   padding: 10px;
-  width: 48% !important;
-  box-shadow: 0px 0px 3px #ccc;
 }
 /* line 358, ../sass/custom/_page.scss */
 .view-music-shop .views-col .img-responsive {
@@ -10486,6 +10483,193 @@ header #block-bansuri-main-menu ul li a:hover {
   max-width: 260px;
 }
 
+/* themesd by brahm for Home page */
+/* line 629, ../sass/custom/_page.scss */
+.path-frontpage .slideshow-image {
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 30%;
+}
+/* line 635, ../sass/custom/_page.scss */
+.path-frontpage .slideshow-image .views-field-field-image img {
+  width: 100%;
+}
+/* line 640, ../sass/custom/_page.scss */
+.path-frontpage .homepage-main-content {
+  float: left;
+  min-height: 250px;
+  width: 67%;
+}
+/* line 644, ../sass/custom/_page.scss */
+.path-frontpage .homepage-main-content .views-field-view-node {
+  float: right;
+  margin-top: 10px;
+}
+
+/* line 650, ../sass/custom/_page.scss */
+.home-Ravi-shankar-mishra {
+  border-top: 2px solid #ccc;
+  float: left;
+  padding-right: 20px;
+  width: 49%;
+}
+/* line 655, ../sass/custom/_page.scss */
+.home-Ravi-shankar-mishra .views-field-body {
+  float: left;
+  margin-right: 10px;
+  width: 62%;
+}
+/* line 660, ../sass/custom/_page.scss */
+.home-Ravi-shankar-mishra .views-field-view-node {
+  float: right;
+  margin-top: 10px;
+}
+
+/* line 665, ../sass/custom/_page.scss */
+.home-flute-classes {
+  float: left;
+  border-top: 2px solid #ccc;
+  width: 48%;
+}
+/* line 669, ../sass/custom/_page.scss */
+.home-flute-classes .views-field-body {
+  float: left;
+  width: 47%;
+  margin-right: 10px;
+}
+/* line 674, ../sass/custom/_page.scss */
+.home-flute-classes .views-field-view-node {
+  float: right;
+  margin-top: 10px;
+}
+
+/* line 679, ../sass/custom/_page.scss */
+.home-cd-block {
+  clear: both;
+}
+/* line 681, ../sass/custom/_page.scss */
+.home-cd-block .block-title {
+  color: #af2900;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-size: 1.4em;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 1.3em;
+  margin-bottom: 0.667em;
+  margin-top: 0.667em;
+  opacity: 0.99;
+  text-transform: uppercase;
+}
+/* line 693, ../sass/custom/_page.scss */
+.home-cd-block .more-link {
+  float: right;
+}
+
+/* line 698, ../sass/custom/_page.scss */
+.home-nityanand-block .views-field-body {
+  float: left;
+  margin-right: 20px;
+  width: 53%;
+}
+/* line 703, ../sass/custom/_page.scss */
+.home-nityanand-block .views-row {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 20px;
+}
+/* line 707, ../sass/custom/_page.scss */
+.home-nityanand-block .views-field-view-node {
+  float: right;
+}
+
+/* line 713, ../sass/custom/_page.scss */
+.home-raag-milan .views-field-body {
+  float: left;
+  width: 69%;
+  margin-right: 20px;
+}
+/* line 718, ../sass/custom/_page.scss */
+.home-raag-milan .views-field-view-node {
+  float: right;
+}
+
+/*css for Mp3 cd shop page */
+/* line 724, ../sass/custom/_page.scss */
+.page-header {
+  color: #af2900;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-size: 1.8em !important;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  opacity: 0.99;
+  text-transform: uppercase;
+}
+
+/* line 735, ../sass/custom/_page.scss */
+.mp3-cd-shop-view .view-header {
+  margin-bottom: 10px;
+}
+/* line 738, ../sass/custom/_page.scss */
+.mp3-cd-shop-view .views-row {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+/* line 742, ../sass/custom/_page.scss */
+.mp3-cd-shop-view .views-row h2 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+/* css for node type page */
+/* line 750, ../sass/custom/_page.scss */
+.page-node-type-page .field--name-body {
+  float: left;
+  margin-right: 20px;
+  width: 60%;
+}
+
+/* css for testimonial page */
+/* line 758, ../sass/custom/_page.scss */
+.testimonial-page-view .views-row {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 20px;
+}
+/* line 762, ../sass/custom/_page.scss */
+.testimonial-page-view .views-field-body {
+  float: left;
+  width: 52%;
+  margin-right: 20px;
+}
+
+/*css for cart pages */
+/* line 769, ../sass/custom/_page.scss */
+.btn-success {
+  background-color: #c24e37 !important;
+  border-color: #c24e37;
+  color: #fff;
+}
+
+/* css for blog page */
+/* line 777, ../sass/custom/_page.scss */
+.view-blog-page .views-row {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+/* line 782, ../sass/custom/_page.scss */
+.view-blog-page .views-row .views-field-field-image {
+  float: right;
+  margin: 0 0 5px 10px;
+}
+/* line 786, ../sass/custom/_page.scss */
+.view-blog-page .views-row .views-field-body {
+  float: left;
+  width: 37%;
+}
+
 /* line 2, ../sass/custom/_footer.scss */
 .footer {
   max-width: 960px;
@@ -10542,7 +10726,12 @@ header #block-bansuri-main-menu ul li a:hover {
   padding: 0;
   text-shadow: 1px 1px 0 #000000;
 }
-/* line 49, ../sass/custom/_footer.scss */
+/* line 46, ../sass/custom/_footer.scss */
+.footer .social-links li a:hover, .footer .social-links li a:focus {
+  background: none;
+  text-decoration: none;
+}
+/* line 54, ../sass/custom/_footer.scss */
 .footer .footer-message {
   color: #af2900;
   font-size: 0.8em;

@@ -623,3 +623,169 @@
 		max-width: 260px;
 	}
 }
+
+/* themesd by brahm for Home page */
+.path-frontpage {
+	.slideshow-image {
+                float:left;
+                margin-right: 20px;
+		margin-top: 20px;
+                width: 30%;
+                .views-field-field-image {
+                        img {
+                                width: 100%;
+                        }
+                }
+        }
+        .homepage-main-content {
+                float: left;
+		min-height: 250px;
+                width: 67%;
+		.views-field-view-node {
+                	float: right;
+                	margin-top: 10px;
+           	}
+        }
+}
+.home-Ravi-shankar-mishra {
+	border-top: 2px solid #ccc;
+	float:left;
+	padding-right: 20px;
+	width: 49%;
+	.views-field-body {
+		float: left;
+		margin-right: 10px;
+		width: 62%;
+	}
+	.views-field-view-node {
+		float: right;
+		margin-top: 10px;
+	}
+}
+.home-flute-classes {
+	float: left;
+	border-top: 2px solid #ccc;
+    	width: 48%;
+	.views-field-body {
+		float: left;
+		width: 47%;
+		margin-right: 10px;
+	}
+	.views-field-view-node {
+		float: right;
+		margin-top: 10px;
+	}
+}
+.home-cd-block {
+	clear:both;
+	.block-title {
+		color: #af2900;
+		font-family: Georgia,"Times New Roman",Times,serif;
+    		font-size: 1.4em;
+    		font-weight: normal;
+    		letter-spacing: 2px;
+    		line-height: 1.3em;
+    		margin-bottom: 0.667em;
+   		margin-top: 0.667em;
+    		opacity: 0.99;
+    		text-transform: uppercase;
+	}
+	.more-link {
+		float: right;
+	}
+}
+.home-nityanand-block {
+	.views-field-body {
+    		float: left;
+		margin-right: 20px;
+    		width: 53%;
+	}
+	.views-row {
+		border-bottom: 2px solid #ccc;
+		padding-bottom: 20px;
+	}
+	.views-field-view-node {
+                float: right;
+        }
+
+}
+.home-raag-milan {
+	.views-field-body {
+                float: left;
+                width: 69%;
+		margin-right: 20px;
+        }
+	.views-field-view-node {
+                float: right;
+        }
+
+}
+/*css for Mp3 cd shop page */
+.page-header {
+	color: #af2900;
+        font-family: Georgia,"Times New Roman",Times,serif;
+        font-size: 1.8em !important;
+        font-weight: normal;
+        letter-spacing: 2px;
+	margin-bottom:0;
+        opacity: 0.99;
+        text-transform: uppercase;
+}
+.mp3-cd-shop-view {
+	.view-header {
+		margin-bottom: 10px;
+	}
+	.views-row {
+		border-top: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		h2 {
+			font-size: 1.4em;
+			text-transform: uppercase;
+		}
+	}
+}
+/* css for node type page */
+.page-node-type-page {
+	.field--name-body {
+		float:left;
+		margin-right: 20px;
+		width: 60%;
+	}
+}
+/* css for testimonial page */
+.testimonial-page-view {
+	.views-row {
+   		border-bottom: 2px solid #ccc;
+    		padding-bottom: 20px;
+	}
+	.views-field-body {
+                float: left;
+                width: 52%;
+                margin-right: 20px;
+        }
+}
+/*css for cart pages */
+.btn-success {
+    background-color: #c24e37 !important;
+    border-color: #c24e37;
+    color: #fff;
+}
+/* css for blog page */
+
+.view-blog-page {
+	.views-row {
+		border-bottom: 1px solid #ccc;
+    		margin-bottom: 20px;
+    		overflow: hidden;
+    		padding-bottom: 20px;
+		.views-field-field-image {
+			float: right;
+   			 margin: 0 0 5px 10px;
+		}
+		.views-field-body {
+    			float: left;
+    			width: 37%;
+		}	
+	}
+}
