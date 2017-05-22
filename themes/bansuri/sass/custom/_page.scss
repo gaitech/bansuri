@@ -11,6 +11,28 @@
 .region-sidebar-second {
 	background: none;
 	border: none;
+	.block {
+                background: rgba(0, 0, 0, 0) url("../../../themes/bansuri/images/bg-edges.png") repeat scroll 0 0;
+                margin-bottom: 20px;
+        }
+	#block-bansuri-account-menu {
+		background: rgba(0, 0, 0, 0) url("../../../themes/bansuri/images/bg-edges.png") repeat scroll 0 0;
+                padding-bottom: 40px;
+		ul {
+			margin:0;
+			li {
+				a {
+					padding-bottom: 10px;
+    					padding-top: 10px;
+					&:hover,
+					&focus {
+						color: #f10000;
+						background: none;
+					}
+				}	
+			}
+		}
+	}
     a {
 		color: #c24e37 !important;
 		text-decoration: none;
@@ -30,7 +52,6 @@
     }
 	h2 {
 		border-bottom: 1px dotted;
-		border-radius: 0 20px 0 0;
 		color: #af2900;
 		font-size: 14px;
 		padding-bottom: 5px;
@@ -42,8 +63,10 @@
 		margin-bottom: 0;
 		margin-top: 0;
 	}
+	.form-group {
+		padding: 0 15px 15px;
+	}
 	.bansuri-cds {
-		border-radius: 0px 20px 0px 20px;
 		box-shadow: 3px 3px 10px #ccc;
 		background:url("../images/bg-edges.png");
 		-webkit-transition: all 0.5s;
