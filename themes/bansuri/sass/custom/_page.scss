@@ -747,10 +747,12 @@
 }
 /* css for node type page */
 .page-node-type-page {
-	.field--name-body {
-		float:left;
-		margin-right: 20px;
-		width: 60%;
+	.field--name-field-image {
+		float:right;
+		margin: 0 0 5px 10px;
+		img {
+			margin-bottom:10px;
+		}
 	}
 }
 /* css for testimonial page */

@@ -10624,19 +10624,22 @@ header #block-bansuri-main-menu ul li a:hover {
 
 /* css for node type page */
 /* line 750, ../sass/custom/_page.scss */
-.page-node-type-page .field--name-body {
-  float: left;
-  margin-right: 20px;
-  width: 60%;
+.page-node-type-page .field--name-field-image {
+  float: right;
+  margin: 0 0 5px 10px;
+}
+/* line 753, ../sass/custom/_page.scss */
+.page-node-type-page .field--name-field-image img {
+  margin-bottom: 10px;
 }
 
 /* css for testimonial page */
-/* line 758, ../sass/custom/_page.scss */
+/* line 760, ../sass/custom/_page.scss */
 .testimonial-page-view .views-row {
   border-bottom: 2px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 762, ../sass/custom/_page.scss */
+/* line 764, ../sass/custom/_page.scss */
 .testimonial-page-view .views-field-body {
   float: left;
   width: 52%;
@@ -10644,7 +10647,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*css for cart pages */
-/* line 769, ../sass/custom/_page.scss */
+/* line 771, ../sass/custom/_page.scss */
 .btn-success {
   background-color: #c24e37 !important;
   border-color: #c24e37;
@@ -10652,19 +10655,19 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /* css for blog page */
-/* line 777, ../sass/custom/_page.scss */
+/* line 779, ../sass/custom/_page.scss */
 .view-blog-page .views-row {
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
   overflow: hidden;
   padding-bottom: 20px;
 }
-/* line 782, ../sass/custom/_page.scss */
+/* line 784, ../sass/custom/_page.scss */
 .view-blog-page .views-row .views-field-field-image {
   float: right;
   margin: 0 0 5px 10px;
 }
-/* line 786, ../sass/custom/_page.scss */
+/* line 788, ../sass/custom/_page.scss */
 .view-blog-page .views-row .views-field-body {
   float: left;
   width: 37%;
