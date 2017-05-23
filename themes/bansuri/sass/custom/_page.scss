@@ -380,8 +380,8 @@
 		//box-shadow: 0px 0px 3px #ccc;
 	    .img-responsive {
 			float: right;
-			width: 170px;
-			margin-right: 20px;
+			width: 160px;
+			margin-right: 10px;
 		}
 		legend {
 			border: medium none;
@@ -649,10 +649,11 @@
 
 /* themesd by brahm for Home page */
 .path-frontpage {
-	.slideshow-image {
+	.slideshow-image-block {
                 float:left;
+		margin-left:0;
                 margin-right: 20px;
-		margin-top: 20px;
+		margin-top: 17px;
                 width: 30%;
                 .views-field-field-image {
                         img {
@@ -663,7 +664,7 @@
         .homepage-main-content {
                 float: left;
 		min-height: 250px;
-                width: 67%;
+                width: 66%;
 		.views-field-view-node {
                 	float: right;
                 	margin-top: 10px;
@@ -674,6 +675,7 @@
 	border-top: 2px solid #ccc;
 	float:left;
 	padding-right: 20px;
+	padding-top: 10px;
 	width: 49%;
 	.views-field-body {
 		float: left;
@@ -688,6 +690,7 @@
 .home-flute-classes {
 	float: left;
 	border-top: 2px solid #ccc;
+	padding-top: 10px;
     	width: 48%;
 	.views-field-body {
 		float: left;
@@ -701,6 +704,7 @@
 }
 .home-cd-block {
 	clear:both;
+	margin-bottom: 10px;
 	.block-title {
 		color: #af2900;
 		font-family: Georgia,"Times New Roman",Times,serif;
@@ -718,6 +722,7 @@
 	}
 }
 .home-nityanand-block {
+	margin-bottom: 10px;
 	.views-field-body {
     		float: left;
 		margin-right: 20px;
@@ -759,12 +764,18 @@
 		margin-bottom: 10px;
 	}
 	.views-row {
-		border-top: 1px solid #ccc;
-		border-left: 1px solid #ccc;
-		border-right: 1px solid #ccc;
+		border: 2px solid #ccc;
+		border-bottom: 0;
+		display: flex;
 		h2 {
 			font-size: 1.4em;
 			text-transform: uppercase;
+		}
+		.col-1 {
+			border-right: 2px solid #ccc;
+		}
+		&:last-child {
+			border-bottom: 2px solid #ccc;
 		}
 	}
 }
@@ -792,9 +803,12 @@
 }
 /*css for cart pages */
 .btn-success {
-    background-color: #c24e37 !important;
-    border-color: #c24e37;
-    color: #fff;
+	background-color: #c24e37 !important;
+	border-color: #c24e37;
+    	color: #fff;
+    	&:hover {
+		border-color: #c24e37;
+	}
 }
 /* css for blog page */
 
@@ -813,4 +827,58 @@
     			width: 37%;
 		}	
 	}
+}
+
+/* css for Pager */
+.pager-nav {
+	.pagination  {
+		li {
+			a,
+			span {
+				background-color: #fff;
+                         	border: medium none;
+                         	color: #000;
+                     	    	float: left;
+                        	text-decoration: none;
+				&:hover {
+					color:  #af2900; 
+				}
+			}	
+			&.active {
+				a,
+				span {
+		 			
+					
+						background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    						border: medium none;
+    						color: #af2900;
+    						cursor: default;
+    						z-index: 3;
+					
+				}
+			}
+		}
+	}
+}
+.slideshow-image-block {
+	float: right;
+	margin-left: 10px;
+	width:50%;
+}
+.bansuri-cd-shop {
+    	h2 {
+		color: #af2900;
+    		font-family: Georgia,"Times New Roman",Times,serif;
+    		font-size: 1.4em;
+		font-weight: normal;
+    		letter-spacing: 2px;
+    		opacity: 0.99;
+    		text-transform: uppercase;
+	}
+}
+.page-node-85 {
+	.field--name-body {
+		padding-bottom: 20px;
+		border-bottom: 2px solid #ccc;
+	}	
 }
