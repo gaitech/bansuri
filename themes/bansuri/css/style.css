@@ -10682,45 +10682,44 @@ header #block-bansuri-main-menu ul li a:hover {
   padding-bottom: 20px;
 }
 /* line 798, ../sass/custom/_page.scss */
-.testimonial-page-view .views-field-body {
-  float: left;
-  width: 52%;
-  margin-right: 20px;
+.testimonial-page-view .views-field-field-image {
+  float: right;
+  margin-left: 20px;
 }
 
 /*css for cart pages */
-/* line 805, ../sass/custom/_page.scss */
+/* line 804, ../sass/custom/_page.scss */
 .btn-success {
   background-color: #c24e37 !important;
   border-color: #c24e37;
   color: #fff;
 }
-/* line 809, ../sass/custom/_page.scss */
+/* line 808, ../sass/custom/_page.scss */
 .btn-success:hover {
   border-color: #c24e37;
 }
 
 /* css for blog page */
-/* line 816, ../sass/custom/_page.scss */
+/* line 815, ../sass/custom/_page.scss */
 .view-blog-page .views-row {
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
   overflow: hidden;
   padding-bottom: 20px;
 }
-/* line 821, ../sass/custom/_page.scss */
+/* line 820, ../sass/custom/_page.scss */
 .view-blog-page .views-row .views-field-field-image {
   float: right;
   margin: 0 0 5px 10px;
 }
-/* line 825, ../sass/custom/_page.scss */
+/* line 824, ../sass/custom/_page.scss */
 .view-blog-page .views-row .views-field-body {
   float: left;
   width: 37%;
 }
 
 /* css for Pager */
-/* line 836, ../sass/custom/_page.scss */
+/* line 835, ../sass/custom/_page.scss */
 .pager-nav .pagination li a,
 .pager-nav .pagination li span {
   background-color: #fff;
@@ -10729,12 +10728,12 @@ header #block-bansuri-main-menu ul li a:hover {
   float: left;
   text-decoration: none;
 }
-/* line 843, ../sass/custom/_page.scss */
+/* line 842, ../sass/custom/_page.scss */
 .pager-nav .pagination li a:hover,
 .pager-nav .pagination li span:hover {
   color: #af2900;
 }
-/* line 848, ../sass/custom/_page.scss */
+/* line 847, ../sass/custom/_page.scss */
 .pager-nav .pagination li.active a,
 .pager-nav .pagination li.active span {
   background: transparent none repeat scroll 0 0;
@@ -10744,14 +10743,14 @@ header #block-bansuri-main-menu ul li a:hover {
   z-index: 3;
 }
 
-/* line 863, ../sass/custom/_page.scss */
+/* line 862, ../sass/custom/_page.scss */
 .slideshow-image-block {
   float: right;
   margin-left: 10px;
   width: 50%;
 }
 
-/* line 869, ../sass/custom/_page.scss */
+/* line 868, ../sass/custom/_page.scss */
 .bansuri-cd-shop h2 {
   color: #af2900;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -10762,7 +10761,7 @@ header #block-bansuri-main-menu ul li a:hover {
   text-transform: uppercase;
 }
 
-/* line 880, ../sass/custom/_page.scss */
+/* line 879, ../sass/custom/_page.scss */
 .page-node-85 .field--name-body {
   padding-bottom: 20px;
   border-bottom: 2px solid #ccc;
