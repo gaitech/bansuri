@@ -60,7 +60,7 @@
 		text-transform: capitalize;
 		background-color: rgba(175,41,0,.2);
 		font-family: Georgia,"Times New Roman",Times,serif;
-		margin-bottom: 0;
+		margin-bottom: 5px;
 		margin-top: 0;
 	}
 	.form-group {
@@ -511,34 +511,6 @@
 		}
 	}
 }
-/*Bansuri blog page theming*/
-.view-bansuri-blog {
-	.views-row {
-	    clear: both;
-	    padding-top: 10px;
-	    &:nth-of-type(1) {
-		    .views-field-title {
-		    	border-top: none;
-		    	padding-top: 0;
-		    }
-	    }
-	    .views-field-title {
-	    	border-top: 1px solid #ccc;
-	    	padding-top: 10px;
-	    }
-	    .views-field-field-blog-image {
-		    float: right;
-		    max-width: 380px;
-		    width: 100%;
-		}
-	}
-	.pager {
-	    clear: both;
-	    padding-top: 20px;
-	    width: 230px;
-	    float: right;
-	}
-}
 /*Blog node page theming */
  .blog {
 	border-bottom: 1px solid #ccc;
@@ -812,6 +784,19 @@
 /* css for blog page */
 
 .view-blog-page {
+	h2{
+		color: #af2900;
+    		font-family: Georgia,"Times New Roman",Times,serif;
+		font-size: 1.4em;
+     		font-weight: normal;
+   		letter-spacing: 2px;
+   		opacity: 0.99;
+   		text-transform: uppercase;
+	}
+	.field--name-field-image {
+		float:right;
+		margin-left:20px;
+	}
 	.views-row {
 		border-bottom: 1px solid #ccc;
     		margin-bottom: 20px;
@@ -820,10 +805,6 @@
 		.views-field-field-image {
 			float: right;
    			 margin: 0 0 5px 10px;
-		}
-		.views-field-body {
-    			float: left;
-    			width: 37%;
 		}	
 	}
 }

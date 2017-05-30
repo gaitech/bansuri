@@ -9852,7 +9852,7 @@ header #block-bansuri-main-menu ul li a:hover {
   text-transform: capitalize;
   background-color: rgba(175, 41, 0, 0.2);
   font-family: Georgia,"Times New Roman",Times,serif;
-  margin-bottom: 0;
+  margin-bottom: 5px;
   margin-top: 0;
 }
 /* line 66, ../sass/custom/_page.scss */
@@ -10355,43 +10355,13 @@ header #block-bansuri-main-menu ul li a:hover {
   width: 100%;
 }
 
-/*Bansuri blog page theming*/
-/* line 516, ../sass/custom/_page.scss */
-.view-bansuri-blog .views-row {
-  clear: both;
-  padding-top: 10px;
-}
-/* line 520, ../sass/custom/_page.scss */
-.view-bansuri-blog .views-row:nth-of-type(1) .views-field-title {
-  border-top: none;
-  padding-top: 0;
-}
-/* line 525, ../sass/custom/_page.scss */
-.view-bansuri-blog .views-row .views-field-title {
-  border-top: 1px solid #ccc;
-  padding-top: 10px;
-}
-/* line 529, ../sass/custom/_page.scss */
-.view-bansuri-blog .views-row .views-field-field-blog-image {
-  float: right;
-  max-width: 380px;
-  width: 100%;
-}
-/* line 535, ../sass/custom/_page.scss */
-.view-bansuri-blog .pager {
-  clear: both;
-  padding-top: 20px;
-  width: 230px;
-  float: right;
-}
-
 /*Blog node page theming */
-/* line 543, ../sass/custom/_page.scss */
+/* line 515, ../sass/custom/_page.scss */
 .blog {
   border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 546, ../sass/custom/_page.scss */
+/* line 518, ../sass/custom/_page.scss */
 .blog .flute-detail-image {
   max-width: 400px;
   width: 100%;
@@ -10400,7 +10370,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*view cart theming*/
-/* line 556, ../sass/custom/_page.scss */
+/* line 528, ../sass/custom/_page.scss */
 .uc-cart-view-form .priority-low img {
   background: transparent none repeat scroll 0 0;
   height: 48px;
@@ -10409,41 +10379,41 @@ header #block-bansuri-main-menu ul li a:hover {
   width: 70px;
 }
 
-/* line 565, ../sass/custom/_page.scss */
+/* line 537, ../sass/custom/_page.scss */
 #contact-message-feedback-form {
   width: 600px;
 }
 
 /*form checkout*/
-/* line 570, ../sass/custom/_page.scss */
+/* line 542, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-text {
   max-width: 430px;
   width: 100%;
 }
-/* line 574, ../sass/custom/_page.scss */
+/* line 546, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .select-wrapper {
   max-width: 430px;
   width: 100%;
 }
-/* line 578, ../sass/custom/_page.scss */
+/* line 550, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .input-group-addon {
   display: none;
 }
-/* line 581, ../sass/custom/_page.scss */
+/* line 553, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-select {
   width: 430px;
 }
-/* line 584, ../sass/custom/_page.scss */
+/* line 556, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email {
   padding-left: 24px;
 }
-/* line 586, ../sass/custom/_page.scss */
+/* line 558, ../sass/custom/_page.scss */
 .uc-cart-checkout-form .form-type-email .form-email {
   max-width: 430px;
   width: 100%;
   display: inline-block;
 }
-/* line 592, ../sass/custom/_page.scss */
+/* line 564, ../sass/custom/_page.scss */
 .uc-cart-checkout-form img {
   border: none;
   background: none;
@@ -10454,34 +10424,34 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*theme captcha*/
-/* line 602, ../sass/custom/_page.scss */
+/* line 574, ../sass/custom/_page.scss */
 .captcha {
   padding-bottom: 20px;
 }
-/* line 604, ../sass/custom/_page.scss */
+/* line 576, ../sass/custom/_page.scss */
 .captcha img {
   padding: 0;
   border: 0;
   box-shadow: none;
 }
-/* line 608, ../sass/custom/_page.scss */
+/* line 580, ../sass/custom/_page.scss */
 .captcha img:hover {
   box-shadow: none;
 }
 
 /*override bootstrap theme*/
-/* line 615, ../sass/custom/_page.scss */
+/* line 587, ../sass/custom/_page.scss */
 .btn-primary {
   background-color: #af2900;
   border-color: #af2900;
 }
-/* line 618, ../sass/custom/_page.scss */
+/* line 590, ../sass/custom/_page.scss */
 .btn-primary:hover {
   background-color: #f10000;
   border-color: #f10000;
 }
 
-/* line 623, ../sass/custom/_page.scss */
+/* line 595, ../sass/custom/_page.scss */
 .btn {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -10489,7 +10459,7 @@ header #block-bansuri-main-menu ul li a:hover {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-/* line 629, ../sass/custom/_page.scss */
+/* line 601, ../sass/custom/_page.scss */
 .btn:hover {
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -10499,18 +10469,18 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /*theme of node page using node id */
-/* line 640, ../sass/custom/_page.scss */
+/* line 612, ../sass/custom/_page.scss */
 .page-node-4 .flute-detail-image {
   max-width: 420px;
 }
 
-/* line 645, ../sass/custom/_page.scss */
+/* line 617, ../sass/custom/_page.scss */
 .page-node-6 .flute-detail-image {
   max-width: 260px;
 }
 
 /* themesd by brahm for Home page */
-/* line 652, ../sass/custom/_page.scss */
+/* line 624, ../sass/custom/_page.scss */
 .path-frontpage .slideshow-image-block {
   float: left;
   margin-left: 0;
@@ -10518,23 +10488,23 @@ header #block-bansuri-main-menu ul li a:hover {
   margin-top: 17px;
   width: 30%;
 }
-/* line 659, ../sass/custom/_page.scss */
+/* line 631, ../sass/custom/_page.scss */
 .path-frontpage .slideshow-image-block .views-field-field-image img {
   width: 100%;
 }
-/* line 664, ../sass/custom/_page.scss */
+/* line 636, ../sass/custom/_page.scss */
 .path-frontpage .homepage-main-content {
   float: left;
   min-height: 250px;
   width: 66%;
 }
-/* line 668, ../sass/custom/_page.scss */
+/* line 640, ../sass/custom/_page.scss */
 .path-frontpage .homepage-main-content .views-field-view-node {
   float: right;
   margin-top: 10px;
 }
 
-/* line 674, ../sass/custom/_page.scss */
+/* line 646, ../sass/custom/_page.scss */
 .home-Ravi-shankar-mishra {
   border-top: 2px solid #ccc;
   float: left;
@@ -10542,43 +10512,43 @@ header #block-bansuri-main-menu ul li a:hover {
   padding-top: 10px;
   width: 49%;
 }
-/* line 680, ../sass/custom/_page.scss */
+/* line 652, ../sass/custom/_page.scss */
 .home-Ravi-shankar-mishra .views-field-body {
   float: left;
   margin-right: 10px;
   width: 62%;
 }
-/* line 685, ../sass/custom/_page.scss */
+/* line 657, ../sass/custom/_page.scss */
 .home-Ravi-shankar-mishra .views-field-view-node {
   float: right;
   margin-top: 10px;
 }
 
-/* line 690, ../sass/custom/_page.scss */
+/* line 662, ../sass/custom/_page.scss */
 .home-flute-classes {
   float: left;
   border-top: 2px solid #ccc;
   padding-top: 10px;
   width: 48%;
 }
-/* line 695, ../sass/custom/_page.scss */
+/* line 667, ../sass/custom/_page.scss */
 .home-flute-classes .views-field-body {
   float: left;
   width: 47%;
   margin-right: 10px;
 }
-/* line 700, ../sass/custom/_page.scss */
+/* line 672, ../sass/custom/_page.scss */
 .home-flute-classes .views-field-view-node {
   float: right;
   margin-top: 10px;
 }
 
-/* line 705, ../sass/custom/_page.scss */
+/* line 677, ../sass/custom/_page.scss */
 .home-cd-block {
   clear: both;
   margin-bottom: 10px;
 }
-/* line 708, ../sass/custom/_page.scss */
+/* line 680, ../sass/custom/_page.scss */
 .home-cd-block .block-title {
   color: #af2900;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -10591,44 +10561,44 @@ header #block-bansuri-main-menu ul li a:hover {
   opacity: 0.99;
   text-transform: uppercase;
 }
-/* line 720, ../sass/custom/_page.scss */
+/* line 692, ../sass/custom/_page.scss */
 .home-cd-block .more-link {
   float: right;
 }
 
-/* line 724, ../sass/custom/_page.scss */
+/* line 696, ../sass/custom/_page.scss */
 .home-nityanand-block {
   margin-bottom: 10px;
 }
-/* line 726, ../sass/custom/_page.scss */
+/* line 698, ../sass/custom/_page.scss */
 .home-nityanand-block .views-field-body {
   float: left;
   margin-right: 20px;
   width: 53%;
 }
-/* line 731, ../sass/custom/_page.scss */
+/* line 703, ../sass/custom/_page.scss */
 .home-nityanand-block .views-row {
   border-bottom: 2px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 735, ../sass/custom/_page.scss */
+/* line 707, ../sass/custom/_page.scss */
 .home-nityanand-block .views-field-view-node {
   float: right;
 }
 
-/* line 741, ../sass/custom/_page.scss */
+/* line 713, ../sass/custom/_page.scss */
 .home-raag-milan .views-field-body {
   float: left;
   width: 69%;
   margin-right: 20px;
 }
-/* line 746, ../sass/custom/_page.scss */
+/* line 718, ../sass/custom/_page.scss */
 .home-raag-milan .views-field-view-node {
   float: right;
 }
 
 /*css for Mp3 cd shop page */
-/* line 752, ../sass/custom/_page.scss */
+/* line 724, ../sass/custom/_page.scss */
 .page-header {
   color: #af2900;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -10640,86 +10610,96 @@ header #block-bansuri-main-menu ul li a:hover {
   text-transform: uppercase;
 }
 
-/* line 763, ../sass/custom/_page.scss */
+/* line 735, ../sass/custom/_page.scss */
 .mp3-cd-shop-view .view-header {
   margin-bottom: 10px;
 }
-/* line 766, ../sass/custom/_page.scss */
+/* line 738, ../sass/custom/_page.scss */
 .mp3-cd-shop-view .views-row {
   border: 2px solid #ccc;
   border-bottom: 0;
   display: flex;
 }
-/* line 770, ../sass/custom/_page.scss */
+/* line 742, ../sass/custom/_page.scss */
 .mp3-cd-shop-view .views-row h2 {
   font-size: 1.4em;
   text-transform: uppercase;
 }
-/* line 774, ../sass/custom/_page.scss */
+/* line 746, ../sass/custom/_page.scss */
 .mp3-cd-shop-view .views-row .col-1 {
   border-right: 2px solid #ccc;
 }
-/* line 777, ../sass/custom/_page.scss */
+/* line 749, ../sass/custom/_page.scss */
 .mp3-cd-shop-view .views-row:last-child {
   border-bottom: 2px solid #ccc;
 }
 
 /* css for node type page */
-/* line 784, ../sass/custom/_page.scss */
+/* line 756, ../sass/custom/_page.scss */
 .page-node-type-page .field--name-field-image {
   float: right;
   margin: 0 0 5px 10px;
 }
-/* line 787, ../sass/custom/_page.scss */
+/* line 759, ../sass/custom/_page.scss */
 .page-node-type-page .field--name-field-image img {
   margin-bottom: 10px;
 }
 
 /* css for testimonial page */
-/* line 794, ../sass/custom/_page.scss */
+/* line 766, ../sass/custom/_page.scss */
 .testimonial-page-view .views-row {
   border-bottom: 2px solid #ccc;
   padding-bottom: 20px;
 }
-/* line 798, ../sass/custom/_page.scss */
+/* line 770, ../sass/custom/_page.scss */
 .testimonial-page-view .views-field-field-image {
   float: right;
   margin-left: 20px;
 }
 
 /*css for cart pages */
-/* line 804, ../sass/custom/_page.scss */
+/* line 776, ../sass/custom/_page.scss */
 .btn-success {
   background-color: #c24e37 !important;
   border-color: #c24e37;
   color: #fff;
 }
-/* line 808, ../sass/custom/_page.scss */
+/* line 780, ../sass/custom/_page.scss */
 .btn-success:hover {
   border-color: #c24e37;
 }
 
 /* css for blog page */
-/* line 815, ../sass/custom/_page.scss */
+/* line 787, ../sass/custom/_page.scss */
+.view-blog-page h2 {
+  color: #af2900;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-size: 1.4em;
+  font-weight: normal;
+  letter-spacing: 2px;
+  opacity: 0.99;
+  text-transform: uppercase;
+}
+/* line 796, ../sass/custom/_page.scss */
+.view-blog-page .field--name-field-image {
+  float: right;
+  margin-left: 20px;
+}
+/* line 800, ../sass/custom/_page.scss */
 .view-blog-page .views-row {
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
   overflow: hidden;
   padding-bottom: 20px;
 }
-/* line 820, ../sass/custom/_page.scss */
+/* line 805, ../sass/custom/_page.scss */
 .view-blog-page .views-row .views-field-field-image {
   float: right;
   margin: 0 0 5px 10px;
 }
-/* line 824, ../sass/custom/_page.scss */
-.view-blog-page .views-row .views-field-body {
-  float: left;
-  width: 37%;
-}
 
 /* css for Pager */
-/* line 835, ../sass/custom/_page.scss */
+/* line 816, ../sass/custom/_page.scss */
 .pager-nav .pagination li a,
 .pager-nav .pagination li span {
   background-color: #fff;
@@ -10728,12 +10708,12 @@ header #block-bansuri-main-menu ul li a:hover {
   float: left;
   text-decoration: none;
 }
-/* line 842, ../sass/custom/_page.scss */
+/* line 823, ../sass/custom/_page.scss */
 .pager-nav .pagination li a:hover,
 .pager-nav .pagination li span:hover {
   color: #af2900;
 }
-/* line 847, ../sass/custom/_page.scss */
+/* line 828, ../sass/custom/_page.scss */
 .pager-nav .pagination li.active a,
 .pager-nav .pagination li.active span {
   background: transparent none repeat scroll 0 0;
@@ -10743,14 +10723,14 @@ header #block-bansuri-main-menu ul li a:hover {
   z-index: 3;
 }
 
-/* line 862, ../sass/custom/_page.scss */
+/* line 843, ../sass/custom/_page.scss */
 .slideshow-image-block {
   float: right;
   margin-left: 10px;
   width: 50%;
 }
 
-/* line 868, ../sass/custom/_page.scss */
+/* line 849, ../sass/custom/_page.scss */
 .bansuri-cd-shop h2 {
   color: #af2900;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -10761,7 +10741,7 @@ header #block-bansuri-main-menu ul li a:hover {
   text-transform: uppercase;
 }
 
-/* line 879, ../sass/custom/_page.scss */
+/* line 860, ../sass/custom/_page.scss */
 .page-node-85 .field--name-body {
   padding-bottom: 20px;
   border-bottom: 2px solid #ccc;
