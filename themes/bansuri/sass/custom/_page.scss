@@ -767,9 +767,18 @@
    		border-bottom: 2px solid #ccc;
     		padding-bottom: 20px;
 	}
-	.views-field-field-image {
+	.field--name-field-image {
                 float: right;
                 margin-left: 20px;
+        }
+	 h2 {
+                color: #af2900;
+                font-family: Georgia,"Times New Roman",Times,serif;
+                font-size: 1.4em;
+                font-weight: normal;
+                letter-spacing: 2px;
+                opacity: 0.99;
+                text-transform: uppercase;
         }
 }
 /*css for cart pages */
@@ -861,4 +870,10 @@
 		padding-bottom: 20px;
 		border-bottom: 2px solid #ccc;
 	}	
+}
+/* css for Right side bar */
+#block-bansuri-account-menu {
+	.navbar-right {
+    		float: left !important;
+	}
 }

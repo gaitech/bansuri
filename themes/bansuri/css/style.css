@@ -10652,25 +10652,35 @@ header #block-bansuri-main-menu ul li a:hover {
   padding-bottom: 20px;
 }
 /* line 770, ../sass/custom/_page.scss */
-.testimonial-page-view .views-field-field-image {
+.testimonial-page-view .field--name-field-image {
   float: right;
   margin-left: 20px;
 }
+/* line 774, ../sass/custom/_page.scss */
+.testimonial-page-view h2 {
+  color: #af2900;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-size: 1.4em;
+  font-weight: normal;
+  letter-spacing: 2px;
+  opacity: 0.99;
+  text-transform: uppercase;
+}
 
 /*css for cart pages */
-/* line 776, ../sass/custom/_page.scss */
+/* line 785, ../sass/custom/_page.scss */
 .btn-success {
   background-color: #c24e37 !important;
   border-color: #c24e37;
   color: #fff;
 }
-/* line 780, ../sass/custom/_page.scss */
+/* line 789, ../sass/custom/_page.scss */
 .btn-success:hover {
   border-color: #c24e37;
 }
 
 /* css for blog page */
-/* line 787, ../sass/custom/_page.scss */
+/* line 796, ../sass/custom/_page.scss */
 .view-blog-page h2 {
   color: #af2900;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -10680,26 +10690,26 @@ header #block-bansuri-main-menu ul li a:hover {
   opacity: 0.99;
   text-transform: uppercase;
 }
-/* line 796, ../sass/custom/_page.scss */
+/* line 805, ../sass/custom/_page.scss */
 .view-blog-page .field--name-field-image {
   float: right;
   margin-left: 20px;
 }
-/* line 800, ../sass/custom/_page.scss */
+/* line 809, ../sass/custom/_page.scss */
 .view-blog-page .views-row {
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
   overflow: hidden;
   padding-bottom: 20px;
 }
-/* line 805, ../sass/custom/_page.scss */
+/* line 814, ../sass/custom/_page.scss */
 .view-blog-page .views-row .views-field-field-image {
   float: right;
   margin: 0 0 5px 10px;
 }
 
 /* css for Pager */
-/* line 816, ../sass/custom/_page.scss */
+/* line 825, ../sass/custom/_page.scss */
 .pager-nav .pagination li a,
 .pager-nav .pagination li span {
   background-color: #fff;
@@ -10708,12 +10718,12 @@ header #block-bansuri-main-menu ul li a:hover {
   float: left;
   text-decoration: none;
 }
-/* line 823, ../sass/custom/_page.scss */
+/* line 832, ../sass/custom/_page.scss */
 .pager-nav .pagination li a:hover,
 .pager-nav .pagination li span:hover {
   color: #af2900;
 }
-/* line 828, ../sass/custom/_page.scss */
+/* line 837, ../sass/custom/_page.scss */
 .pager-nav .pagination li.active a,
 .pager-nav .pagination li.active span {
   background: transparent none repeat scroll 0 0;
@@ -10723,14 +10733,14 @@ header #block-bansuri-main-menu ul li a:hover {
   z-index: 3;
 }
 
-/* line 843, ../sass/custom/_page.scss */
+/* line 852, ../sass/custom/_page.scss */
 .slideshow-image-block {
   float: right;
   margin-left: 10px;
   width: 50%;
 }
 
-/* line 849, ../sass/custom/_page.scss */
+/* line 858, ../sass/custom/_page.scss */
 .bansuri-cd-shop h2 {
   color: #af2900;
   font-family: Georgia,"Times New Roman",Times,serif;
@@ -10741,10 +10751,16 @@ header #block-bansuri-main-menu ul li a:hover {
   text-transform: uppercase;
 }
 
-/* line 860, ../sass/custom/_page.scss */
+/* line 869, ../sass/custom/_page.scss */
 .page-node-85 .field--name-body {
   padding-bottom: 20px;
   border-bottom: 2px solid #ccc;
+}
+
+/* css for Right side bar */
+/* line 876, ../sass/custom/_page.scss */
+#block-bansuri-account-menu .navbar-right {
+  float: left !important;
 }
 
 /* line 2, ../sass/custom/_footer.scss */
