@@ -10831,3 +10831,57 @@ header #block-bansuri-main-menu ul li a:hover {
   padding: 1em 0;
   text-align: center;
 }
+
+/* css for Mobile */
+@media (min-width: 320px) and (max-width: 567px) {
+  /* line 4, ../sass/custom/_responsive.scss */
+  header .navbar-brand {
+    font-size: 2em;
+    margin: 0 20px;
+  }
+
+  /* line 10, ../sass/custom/_responsive.scss */
+  .google-translate-block .gtranslate {
+    right: 36%;
+    top: 10em;
+    z-index: 100;
+  }
+  /* line 15, ../sass/custom/_responsive.scss */
+  .google-translate-block select {
+    border: 1px solid #000 !important;
+  }
+
+  /* line 19, ../sass/custom/_responsive.scss */
+  .home-mp3-block {
+    background-size: 100%;
+  }
+
+  /* line 23, ../sass/custom/_responsive.scss */
+  .path-frontpage .slideshow-image-block {
+    width: 100%;
+  }
+  /* line 26, ../sass/custom/_responsive.scss */
+  .path-frontpage .homepage-main-content {
+    width: 100%;
+  }
+  /* line 29, ../sass/custom/_responsive.scss */
+  .path-frontpage .home-Ravi-shankar-mishra {
+    width: 100%;
+  }
+  /* line 31, ../sass/custom/_responsive.scss */
+  .path-frontpage .home-Ravi-shankar-mishra .views-field-body {
+    width: 47%;
+  }
+  /* line 35, ../sass/custom/_responsive.scss */
+  .path-frontpage .home-flute-classes,
+  .path-frontpage .home-nityanand-block,
+  .path-frontpage .home-raag-milan {
+    width: 100%;
+  }
+  /* line 39, ../sass/custom/_responsive.scss */
+  .path-frontpage .home-flute-classes .views-field-body,
+  .path-frontpage .home-nityanand-block .views-field-body,
+  .path-frontpage .home-raag-milan .views-field-body {
+    width: 100%;
+  }
+}
