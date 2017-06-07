@@ -1,5 +1,5 @@
 /* css for Mobile */
-@media (min-width: 320px) and (max-width: 567px) { 
+@media (min-width: 320px) and (max-width: 767px) { 
 	header {
 		.navbar-brand {
 			font-size: 2em;
@@ -41,6 +41,36 @@
                         }
                 }
 
-	}		
+	}
+	.slideshow-image-block {
+		float: none;
+		width:100%;
+		.views-field-field-image {
+                        img {
+                                width: 100%;
+                        }
+                }
+	}
+	aside {
+		width: 100% !important;
+		.region-sidebar-second {
+			width: 100%;
+			padding: 20px 0;
+			#block-bansuri-account-menu {
+				padding-bottom: 80px;
+			}
+		}
+	}	
+	.col-sm-9 ,
+	iframe {
+    		width: 100%;
+	}	
 }
 
+@media (min-width: 687px) and (max-width: 890px) {
+	.google-translate-block {
+                .gtranslate {
+                        right: 14em;
+                }
+        }
+}

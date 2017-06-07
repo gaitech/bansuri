@@ -10833,7 +10833,7 @@ header #block-bansuri-main-menu ul li a:hover {
 }
 
 /* css for Mobile */
-@media (min-width: 320px) and (max-width: 567px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /* line 4, ../sass/custom/_responsive.scss */
   header .navbar-brand {
     font-size: 2em;
@@ -10883,5 +10883,41 @@ header #block-bansuri-main-menu ul li a:hover {
   .path-frontpage .home-nityanand-block .views-field-body,
   .path-frontpage .home-raag-milan .views-field-body {
     width: 100%;
+  }
+
+  /* line 45, ../sass/custom/_responsive.scss */
+  .slideshow-image-block {
+    float: none;
+    width: 100%;
+  }
+  /* line 49, ../sass/custom/_responsive.scss */
+  .slideshow-image-block .views-field-field-image img {
+    width: 100%;
+  }
+
+  /* line 54, ../sass/custom/_responsive.scss */
+  aside {
+    width: 100% !important;
+  }
+  /* line 56, ../sass/custom/_responsive.scss */
+  aside .region-sidebar-second {
+    width: 100%;
+    padding: 20px 0;
+  }
+  /* line 59, ../sass/custom/_responsive.scss */
+  aside .region-sidebar-second #block-bansuri-account-menu {
+    padding-bottom: 80px;
+  }
+
+  /* line 64, ../sass/custom/_responsive.scss */
+  .col-sm-9,
+  iframe {
+    width: 100%;
+  }
+}
+@media (min-width: 687px) and (max-width: 890px) {
+  /* line 72, ../sass/custom/_responsive.scss */
+  .google-translate-block .gtranslate {
+    right: 14em;
   }
 }
