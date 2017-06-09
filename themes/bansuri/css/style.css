@@ -9621,20 +9621,12 @@ a:hover {
   border: 1px solid #c8c8c8;
   margin: 0 5px 5px 0;
   padding: 10px;
-  box-shadow: 0px 0px 7px #c6c6c6;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
+  box-shadow: none;
   transition: all 0.5s;
 }
 /* line 45, ../sass/custom/_header.scss */
 .main-container img:hover {
-  box-shadow: 0px 0px 7px #000;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
+  background-color: #eef3f3;
   transition: all 0.5s;
 }
 
