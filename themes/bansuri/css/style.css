@@ -10836,7 +10836,7 @@ header #block-bansuri-main-menu ul li a:hover {
 @media (min-width: 320px) and (max-width: 767px) {
   /* line 4, ../sass/custom/_responsive.scss */
   header .navbar-brand {
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 0 20px;
   }
 
@@ -10914,9 +10914,15 @@ header #block-bansuri-main-menu ul li a:hover {
   iframe {
     width: 100%;
   }
+
+  /* line 68, ../sass/custom/_responsive.scss */
+  .views-view-grid .views-col {
+    float: left;
+    width: 25% !important;
+  }
 }
 @media (min-width: 687px) and (max-width: 890px) {
-  /* line 72, ../sass/custom/_responsive.scss */
+  /* line 76, ../sass/custom/_responsive.scss */
   .google-translate-block .gtranslate {
     right: 14em;
   }
