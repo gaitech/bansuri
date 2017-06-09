@@ -10921,9 +10921,14 @@ header #block-bansuri-main-menu ul li a:hover {
     float: left;
     width: 25% !important;
   }
+
+  /* line 79, ../sass/custom/_responsive.scss */
+  #contact-message-feedback-form {
+    width: 100%;
+  }
 }
 @media (min-width: 687px) and (max-width: 890px) {
-  /* line 83, ../sass/custom/_responsive.scss */
+  /* line 86, ../sass/custom/_responsive.scss */
   .google-translate-block .gtranslate {
     right: 14em;
   }
