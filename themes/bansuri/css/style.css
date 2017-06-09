@@ -10836,7 +10836,7 @@ header #block-bansuri-main-menu ul li a:hover {
 @media (min-width: 320px) and (max-width: 767px) {
   /* line 4, ../sass/custom/_responsive.scss */
   header .navbar-brand {
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin: 0 20px;
   }
   /* line 8, ../sass/custom/_responsive.scss */
