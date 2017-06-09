@@ -5,6 +5,13 @@
 			font-size: 1.8em;
 			margin: 0 20px;
 		}
+		&#navbar .navbar-header {
+			margin-left: 0 !important;
+			margin-right: 0 !important;
+		}
+		.navbar-nav {
+                	margin: 7.5px 0;
+         	}
 	}
 	.google-translate-block {
 		.gtranslate {
